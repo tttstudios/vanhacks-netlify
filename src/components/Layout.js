@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Header from './Header';
 import Navbar from './Navbar';
 
-import './css/bootstrap.min.css';
-import './css/agency.css';
-import './css/animate.min.css';
+// import './css/bootstrap.min.css';
+// import './css/agency.css';
+// import './css/animate.min.css';
 // import './font-awesome/css/font-awesome.min.css';
 
 const Layout = props => (

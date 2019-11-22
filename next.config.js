@@ -6,4 +6,17 @@ module.exports = withCSS({
     cssLoaderOptions: {
         url: false
     },
+    webpack(config, options) {
+        config.module.rules.push({
+            // test: /\.css$/,
+            // use: [
+            //     'style-loader',
+            //     'css-loader',
+            // ]
+
+            test: /\.md$/,
+            use: 'frontmatter-markdown-loader'
+        });
+        return config;
+    }
 })
