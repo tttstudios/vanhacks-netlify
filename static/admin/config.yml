@@ -12,11 +12,339 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Header Image, name: headerImage, widget: image}
+          - {label: Date, name: date, widget: string}
+          - {label: Vanhacks Logo, name: vanhacksLogo, widget: image}
+          - {label: Vanhacks Slogan, name: vanhacksSlogan, widget: image}
+          - {label: Button Title, name: buttonTitle, widget: string}
+          - {
+            label: About,
+            name: about,
+            widget: object,
+            fields: [
+              {
+                label: Hacking and Caring with,
+                name: collaborators,
+                widget: list,
+                fields: [
+                  {
+                    label: Organization Logo,
+                    name: image,
+                    widget: image,
+                  },
+                  {
+                    label: Alt,
+                    name: Alt,
+                    widget: string,
+                  },
+                  {
+                    label: URL,
+                    name: href,
+                    widget: string,
+                  }
+                ]
+              },
+              {
+                label: Title,
+                name: title,
+                widget: string,
+              },
+              {
+                label: Description,
+                name: description,
+                widget: list,
+                fields: [
+                  {
+                    label: Paragraph,
+                    name: p,
+                    widget: text
+                  }
+                ]
+              },
+              {
+                label: Image,
+                name: image,
+                widget: image,
+              }
+            ]
+          }
+
+          - {
+          label: Groups,
+          name: groups,
+          widget: object,
+          fields: [
+            {
+              label: Title,
+              name: title,
+              widget: string,
+            },
+            {
+              label: Description,
+              name: description,
+              widget: list,
+              fields: [
+                {
+                  lable: Paragraph,
+                  name: p,
+                  widget: text,
+                }
+              ]
+            },
+            {
+              label: Button Title,
+              name: buttonTitle,
+              widget: string,
+            },
+            {
+              label: Instructions,
+              name: instructions,
+              widget: list,
+              fields: [
+                {
+                  lable: Step,
+                  name: step,
+                  widget: text,
+                }
+              ]
+            }
+          ]
+        }
+
+          - {
+            label: Schedule,
+            name: schedule,
+            widget: object,
+            fields: [
+              {
+                label: Title,
+                name: title,
+                widget: string,
+              },
+              {
+                label: Dates,
+                name: dates,
+                widget: list,
+                fields: [
+                  {
+                    label: Day,
+                    name: day,
+                    widget: object,
+                    fields: [
+                      {
+                        label: Title,
+                        name: title,
+                        widget: string,
+                      },
+                      {
+                        label: Time Block,
+                        name: timeBlock,
+                        widget: list,
+                        fields: [
+                          {
+                            label: Time,
+                            name: time,
+                            widget: string,
+                          },
+                          {
+                            label: Title,
+                            name: title,
+                            widget: string,
+                          },
+                          {
+                            label: Location Title,
+                            name: locationTitle,
+                            widget: string,
+                          },
+                          {
+                            label: Location Url,
+                            name: locationUrl,
+                            widget: string,
+                          },
+                          {
+                            label: Description,
+                            name: description,
+                            widget: text,
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        }
+          - {
+            label: Sponsors,
+            name: sponsors,
+            widget: object,
+            fields: [
+              {
+                label: Title,
+                name: title,
+                widget: string,
+              },
+              {
+                label: Description,
+                name: description,
+                widget: string,
+              },
+              {
+                label: Button Title,
+                name: buttonTitle,
+                widget: string,
+              },
+              {
+                label: Founding Sponsors,
+                name: foundingSponsors,
+                widget: list,
+                fields: [
+                  {
+                    label: Sponsor Image,
+                    name: sponsor,
+                    widget: image,
+                  },
+                  {
+                    label: Alt,
+                    name: alt,
+                    widget: string
+                  },
+                  {
+                    label: Url,
+                    name: url,
+                    widget: string,
+                  }
+                ]
+              },
+              {
+                label: Event Sponsors,
+                name: eventSponsors,
+                widget: list,
+                fields: [
+                  {
+                    label: Sponsor Image,
+                    name: sponsor,
+                    widget: image,
+                  },
+                  {
+                    label: Alt,
+                    name: alt,
+                    widget: string,
+                  },
+                  {
+                    label: Url,
+                    name: url,
+                    widget: string,
+                  },
+                  {
+                    label: Tier,
+                    name: tier,
+                    widget: number,
+                  }
+                ]
+              }
+            ]
+          }
+
+          - {
+            label: Judges,
+            name: judges,
+            widget: list,
+            fields: [
+              {
+                label: Judge Image,
+                name: judge,
+                widget: image,
+              },
+              {
+                label: Full Name,
+                name: fullName,
+                widget: string,
+              },
+              {
+                label: Job Title,
+                name: jobTitle,
+                widget: string,
+              },
+              {
+                label: Description,
+                name: description,
+                widget: text,
+              }
+            ]
+          }
+
+          - {
+            label: Hosts,
+            name: hosts,
+            widget: list,
+            fields: [
+              {
+                label: Host Image,
+                name: host,
+                widget: image,
+              },
+              {
+                label: Full Name,
+                name: fullName,
+                widget: string,
+              },
+              {
+                label: Description,
+                name: description,
+                widget: string,
+              },
+              {
+                label: Social Media Url,
+                name: socialMediaUrl,
+                widget: string,
+              }
+            ]
+          }
+
+          - {
+            label: Info,
+            name: info,
+            widget: object,
+            fields: [
+              {
+                label: Title,
+                name: title,
+                widget: string,
+              },
+              {
+                label: Rules,
+                name: rules,
+                widget: list,
+                fields: [
+                  {
+                    label: Rule,
+                    name: rule,
+                    widget: string,
+                  },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: text,
+                  }
+                ]
+              },
+              {
+                label: FAQ,
+                name: faq,
+                widget: list,
+                fields: [
+                  {
+                    label: Question,
+                    name: q,
+                    widget: string,
+                  },
+                  {
+                    labe: Answer,
+                    name: answer,
+                    widget: text,
+                  }
+                ]
+              }
+            ]
+          }
