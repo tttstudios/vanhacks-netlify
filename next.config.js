@@ -2,21 +2,20 @@
 const withCSS = require('@zeit/next-css')
 module.exports = withCSS({
     /* config options here */
-    cssModules: true,
     cssLoaderOptions: {
         url: false
     },
-    webpack(config, options) {
-        config.module.rules.push({
-            // test: /\.css$/,
-            // use: [
-            //     'style-loader',
-            //     'css-loader',
-            // ]
+    // webpack(config, options) {
+    //     config.module.rules.push({
+    //         // test: /\.css$/,
+    //         // use: [
+    //         //     'style-loader',
+    //         //     'css-loader',
+    //         // ]
 
-            test: /\.md$/,
-            use: 'frontmatter-markdown-loader'
-        });
-        return config;
-    }
+    //         test: /\.md$/,
+    //         use: 'frontmatter-markdown-loader'
+    //     });
+    //     return config;
+    // }
 })
