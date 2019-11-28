@@ -2,7 +2,8 @@ backend:
   name: bitbucket
   repo: jae3choi/netlify-cms
   branch: master
-media_folder: public/static/img
+media_folder: public/img
+public_folder: img
 
 collections:
   - name: "pages"
