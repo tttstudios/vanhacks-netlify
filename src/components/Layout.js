@@ -8,7 +8,7 @@ import Navbar from './Navbar';
 // import './font-awesome/css/font-awesome.min.css';
 
 const Layout = props => (
-    <html>
+    <>
         <Head>
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -61,14 +61,16 @@ const Layout = props => (
         </Head>
 
 
-        <body>
+        <article>
+
             <Navbar />
 
             <Header />
 
             {props.children}
-        </body>
-    </html>
+
+        </article>
+    </>
 
 );
 
