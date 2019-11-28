@@ -23,10 +23,6 @@ const PostLink = props => (
     </li>
 );
 
-const SectionDivider = () => (
-    <div className='section-divider'></div>
-);
-
 const IndexPage = () => (
 
     <Layout>
@@ -44,28 +40,28 @@ const IndexPage = () => (
             </div>
         </div>
         <About />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Groups />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Schedule />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Sponsors />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Judges />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Hosts />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Mentors />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Info />
-        <SectionDivider />
+        <div className='section-divider'></div>
 
         <Contact />
     </Layout>

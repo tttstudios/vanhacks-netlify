@@ -58,7 +58,7 @@ export default function Hosts() {
                             <p className="mentor-description">Host</p>
                             <ul className="list-inline social-buttons-host ">
                                 <li><a href="https://www.linkedin.com/in/kattywang/" target="_blank"><i
-                                    class="fa fa-linkedin"></i></a></li>
+                                    className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
