@@ -1,4 +1,4 @@
-export default function Sponsors() {
+export default function Sponsors({ data }) {
     return (
         <section id="sponsors">
             <div className="container">
@@ -6,34 +6,24 @@ export default function Sponsors() {
                 {/* <!-- Founding Sponsors --> */}
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h2 className="section-heading">Sponsors</h2>
+                        <h2 className="section-heading">{data.title}</h2>
                     </div>
 
                     <div className="row">
                         <div className="col-md-3 section-subheading-founding-sponsor">Founding Sponsors</div>
-                        <div className="col-md-4 sponsor-small">
-                            <a href="http://vanstartupweek.ca/" target="_blank">
-                                <img className="img-sponsor-small img-responsive" src="img/logos/vsw-logo@2x.png"
-                                    alt="VSW Logo" /></a>
-                            <p className="text-sponsor-small">
-                                Vancouver Startup Week is a week-long celebration connecting
-                                entrepreneurs, investors, leaders, and friends to support our startup community. The city
-                                will be teeming with events and networking receptions hosted by some of the biggest names in
-                                the startup scene. Last year, VSW brought together more than 2,000 people, to more than 108
-                                different events run by dozens of amazing community partners.
-                        </p>
-                        </div>
-                        <div className="col-md-4 sponsor-small">
-                            <a href="https://ttt.studio" target="_blank">
-                                <img className="img-sponsor-small img-responsive" src="img/logos/ttt-logo@2x.png"
-                                    alt="TTT Logo" /></a>
-                            <p className="text-sponsor-small">
-                                TTT Studios is an award winning Digital Innovation Studio with a strong belief in being
-                                heavily involved in empowering the community. Having built solutions for more than 200
-                                clients around the world, they work with industry leaders and challengers who have ambitious
-                                goals and see the value in re-shaping their industries through technology.
-                        </p>
-                        </div>
+                        {data.foundingSponsors.map((s, index) => {
+                            return (
+                                <div className="col-md-4 sponsor-small">
+                                    <a href={s.url} target="_blank">
+                                        <img className="img-sponsor-small img-responsive" src={s.sponsor}
+                                            alt={s.alt} />
+                                    </a>
+                                    <p className="text-sponsor-small">
+                                        {s.description}
+                                    </p>
+                                </div>
+                            )
+                        })}
                     </div>
 
                     <div className="row">
@@ -42,82 +32,51 @@ export default function Sponsors() {
                         </div>
                             <div className="container" stly="true">
                                 <div className="row gold-row d-flex wrap jc-center">
-                                    <div className="col-xs-12 col-sm-4 col-md-4">
-                                        <a href="https://www.bcit.ca/" target="_blank">
-                                            <img className="img-centered img-community-sponsor img-responsive bcit-logo"
-                                                src="img/logos/logo-bcit@2x.png"
-                                                alt="BCIT Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-12 col-sm-4 col-md-4">
-                                        <a href="https://www.kpmg.ca/" target="_blank">
-                                            <img className="img-centered img-community-sponsor img-responsive kpmg-logo"
-                                                src="img/logos/logo-kpmg@2x.png" alt="KPMG Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-12 col-sm-4 col-md-4">
-                                        <a href="https://cto.ai/" target="_blank">
-                                            <img className="img-centered img-community-sponsor img-responsive cto-logo"
-                                                src="img/logos/logo-cto@2x.png"
-                                                alt="CTO.ai Logo" /></a>
-                                    </div>
+
+                                    {data.eventSponsors.map((s, index) => {
+                                        if (s.tier == 1) {
+                                            return (
+                                                <div className="col-xs-12 col-sm-4 col-md-4">
+                                                    <a href={s.url} target="_blank">
+                                                        <img className="img-centered img-community-sponsor img-responsive"
+                                                            src={s.sponsor}
+                                                            alt={s.alt} />
+                                                    </a>
+                                                </div>
+                                            )
+                                        }
+                                    })}
                                 </div>
                                 <div className="row d-flex wrap jc-center align-center">
-                                    <div className="col-xs-6 col-sm-3">
-                                        <a href="https://www.lighthouselabs.ca/" target="_blank">
-                                            <img className="img-centered img-responsive silver-sponsor lighthouse-sponsor"
-                                                src="img/sponsors/logo-lighthouselabs@2x.png"
-                                                alt="Lighthouse Labs Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-6 col-sm-3">
-                                        <a href="https://www.hackhub.com/" target="_blank">
-                                            <img className="img-centered img-responsive  silver-sponsor"
-                                                src="img/sponsors/hackHub-logo.png"
-                                                alt="HackHub Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-6 col-sm-3">
-                                        <a href="https://www.nespresso.com/" target="_blank">
-                                            <img className="img-centered img-responsive nespresso-sponsor silver-sponsor"
-                                                src="img/sponsors/nespresso.png"
-                                                alt="Nespresso Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-6 col-sm-3">
-                                        <a href="https://www.protopie.io/" target="_blank">
-                                            <img className="img-centered img-responsive silver-sponsor protopie-sponsor"
-                                                src="img/sponsors/logo-protopie@2x.png"
-                                                alt="Protopie Logo" /></a>
-                                    </div>
+                                    {data.eventSponsors.map((s, index) => {
+                                        if (s.tier == 2) {
+                                            return (
+                                                <div className="col-xs-6 col-sm-3">
+                                                    <a href={s.url} target="_blank">
+                                                        <img className="img-centered img-responsive silver-sponsor"
+                                                            src={s.sponsor}
+                                                            alt={s.alt} />
+                                                    </a>
+                                                </div>
+                                            )
+                                        }
+                                    })}
                                 </div>
 
                                 <div className="row d-flex wrap jc-center align-center">
-                                    <div className="col-xs-4 col-sm-2">
-                                        <a href="https://www.realtor.com/" target="_blank">
-                                            <img className="img-centered img-responsive bronze-sponsor-large realtor-sponsor"
-                                                src="img/sponsors/logo-realtor@2x.png"
-                                                alt="realtorDotCom Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-4 col-sm-2">
-                                        <a href="https://www.grammarly.com/" target="_blank">
-                                            <img className="img-centered img-responsive bronze-sponsor-large grammarly-sponsor"
-                                                src="img/sponsors/logo-grammarly@2x.png"
-                                                alt="Grammarly Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-4 col-sm-2">
-                                        <a href="https://www.cartems.com/" target="_blank">
-                                            <img className="img-centered img-responsive bronze-sponsor cartems-sponsor"
-                                                src="img/sponsors/logo-cartems@2x.png"
-                                                alt="Cartems logo" /></a>
-                                    </div>
-                                    <div className="col-xs-4 col-sm-2">
-                                        <a href="https://www.redbull.com/" target="_blank">
-                                            <img className="img-centered img-responsive bronze-sponsor redbull-sponsor"
-                                                src="img/sponsors/logo-redbull@2x.png"
-                                                alt="RedBull Logo" /></a>
-                                    </div>
-                                    <div className="col-xs-4 col-sm-2">
-                                        <a href="https://www.radical.io/" target="_blank">
-                                            <img className="img-centered img-responsive bronze-sponsor-large radical-sponsor"
-                                                src="img/sponsors/logo-radical@2x.png"
-                                                alt="Radical Logo" /></a>
-                                    </div>
+                                    {data.eventSponsors.map((s, index) => {
+                                        if (s.tier == 3) {
+                                            return (
+                                                <div className="col-xs-4 col-sm-2">
+                                                    <a href={s.url} target="_blank">
+                                                        <img className="img-centered img-responsive bronze-sponsor-large"
+                                                            src={s.sponsor}
+                                                            alt={s.alt} />
+                                                    </a>
+                                                </div>
+                                            )
+                                        }
+                                    })}
                                 </div>
                             </div>
                         </div>
@@ -126,13 +85,12 @@ export default function Sponsors() {
                     <div className="row">
 
                         <p className="text-sponsor-small text-center sponsors-details">
-                            Interested in getting involved? Get in touch, or download the PDF below to
-                            learn about sponsorship opportunities.
-                    </p>
+                            {data.description}
+                        </p>
 
                         <a href="VanHacks_Sponsorship_2019.pdf" download="vanhacks_2019_sponsorship_package">
-                            <div className="button-yellow sponsorship-download-package-button">Download sponsorship package
-                        </div>
+                            <div className="button-yellow sponsorship-download-package-button">{data.buttonTitle}
+                            </div>
                         </a>
                     </div>
 

@@ -4,15 +4,14 @@ date: September 13-15, 2019
 vanhacksLogo: img/logos/vanhacks_logo_white@2x.png
 vanhacksSlogan: img/forsocialgood@2.png
 buttonTitle: Get your tickets!
+collaborators:
+    - image: img/logos/VSW_logo.jpg
+      alt: VSW Logo
+      href: http://vanstartupweek.ca/
+    - image: img/logos/ttt-logo.png
+      alt: TTT studios logo
+      href: https://ttt.studio
 about:
-    collaborators:
-        - image: img/logos/VSW_logo.jpg
-          alt: VSW Logo
-          href: http://vanstartupweek.ca/
-        - image: img/logos/ttt-logo.png
-          alt: TTT studios logo
-          href: https://ttt.studio
-
     title: About VanHacks
     description: 
         - p:

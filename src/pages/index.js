@@ -41,6 +41,7 @@ export default class Home extends Component {
             vanhacksLogo,
             vanhacksSlogan,
             buttonTitle,
+            collaborators,
             about,
             groups,
             schedule,
@@ -103,7 +104,6 @@ export default class Home extends Component {
                     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
                 </Head>
                 <article>
-                    <ConsoleLog>{headerImage}</ConsoleLog>
                     <Layout>
                         <HomeContent />
                         <Header image={headerImage} />
@@ -114,27 +114,31 @@ export default class Home extends Component {
                             </p>
                             <div className="row">
                                 <div className="text-center">
-                                    <a href="http://vanstartupweek.ca/" target="_blank"><img className="img-sponsor-small about-img-left"
-                                        src="img/logos/VSW_logo.jpg" alt="VSW Logo" /></a>
-                                    <a href="https://ttt.studio" target="_blank"><img className="img-sponsor-small about-img-right"
-                                        src="img/logos/ttt-logo.png" alt="ViDIA Logo" /></a>
+                                    {collaborators.map((c, index) => {
+                                        return (
+                                            <a href={c.href} target="_blank">
+                                                <img className="img-sponsor-small about-img-left"
+                                                    src={c.image} alt={c.alt} />
+                                            </a>
+                                        )
+                                    })}
                                 </div>
                             </div>
                         </div>
 
-                        <About />
+                        <About data={about} />
                         <div className='section-divider'></div>
 
-                        <Groups />
+                        <Groups data={groups} />
                         <div className='section-divider'></div>
 
                         <Schedule />
                         <div className='section-divider'></div>
 
-                        <Sponsors />
+                        <Sponsors data={sponsors} />
                         <div className='section-divider'></div>
 
-                        <Judges />
+                        <Judges data={judges} />
                         <div className='section-divider'></div>
 
                         <Hosts />

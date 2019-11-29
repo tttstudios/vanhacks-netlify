@@ -21,16 +21,8 @@ collections:
           - {label: Vanhacks Logo, name: vanhacksLogo, widget: image}
           - {label: Vanhacks Slogan, name: vanhacksSlogan, widget: image}
           - {label: Button Title, name: buttonTitle, widget: string}
-          - {
-            label: About,
-            name: about,
-            widget: object,
+          - {label: Hacking and Caring with, name: collaborators, widget: list, 
             fields: [
-              {
-                label: Hacking and Caring with,
-                name: collaborators,
-                widget: list,
-                fields: [
                   {
                     label: Organization Logo,
                     name: image,
@@ -48,6 +40,11 @@ collections:
                   }
                 ]
               },
+          - {
+            label: About,
+            name: about,
+            widget: object,
+            fields: [
               {
                 label: Title,
                 name: title,
@@ -61,7 +58,7 @@ collections:
                   {
                     label: Paragraph,
                     name: p,
-                    widget: text
+                    widget: string
                   }
                 ]
               },

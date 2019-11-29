@@ -1,27 +1,23 @@
-export default function Groups() {
+export default function Groups({ data }) {
     return (
         <section id="groups">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h2 className="section-heading ">Groups we’re serving in 2019</h2>
+                        <h2 className="section-heading ">{data.title}</h2>
 
                         <div className="groups-body">
-
-                            At Vanhacks 2019, we are trying something new that allows you hackers to be more creative.
-                            In past years, we’ve limited the groups served to five organizations who provided very
-                            specific
-                            asks. This year, we’ve decided to give you free reign over the group you’d like to hack for.
-                            Use the list below to aid in your search for the non-profits that do amazing work around
-                            Vancouver, and think about how you can contribute to their cause.
-                            Please reach out to any of these groups directly (or a nonprofit of your choice) and ask if
-                            there are any digital assets you can create that can power their mission.
-                    </div>
+                            {data.description.map((paragraph, index) => {
+                                return (<div style={{ marginBottom: '20px' }}>
+                                    {paragraph.p}
+                                </div>)
+                            })}
+                        </div>
 
                         <a href="https://volunteeringvancouver.ca/nonprofit-organizations/" target="_blank">
                             <div className="button-yellow group-button">
-                                Find your group
-                        </div>
+                                {data.buttonTitle}
+                            </div>
                         </a>
 
                         <div className="container">
