@@ -1,6 +1,7 @@
-import { Component } from 'react'
-import Link from 'next/link';
 import Head from 'next/head';
+import { Component } from 'react'
+import { attributes, react as HomeContent } from './index.md';
+import Link from 'next/link';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
 import About from '../components/About';
@@ -13,7 +14,6 @@ import Mentors from '../components/Mentors';
 import Info from '../components/Info';
 import Contact from '../components/Contact';
 
-import { attributes, react as HomeContent } from './index.md';
 
 import '../components/css/bootstrap.min.css';
 import '../components/css/agency.css';
@@ -103,9 +103,9 @@ export default class Home extends Component {
                     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
                 </Head>
                 <article>
-                    <ConsoleLog>{date}</ConsoleLog>
+                    <ConsoleLog>{headerImage}</ConsoleLog>
                     <Layout>
-
+                        <HomeContent />
                         <Header image={headerImage} />
 
                         <div className="container">

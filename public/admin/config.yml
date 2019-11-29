@@ -126,14 +126,19 @@ collections:
                 widget: string,
               },
               {
-                label: Dates,
-                name: dates,
+                label: Days,
+                name: days,
                 widget: list,
                 fields: [
                   {
                     label: Day,
                     name: day,
-                    widget: object,
+                    widget: string,
+                  },
+                  {
+                    label: Time Blocks,
+                    name: timeBlocks,
+                    widget: list,
                     fields: [
                       {
                         label: Title,
