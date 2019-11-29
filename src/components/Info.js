@@ -1,160 +1,33 @@
-export default function Info() {
+export default function Info({ data }) {
     return (
         <section id="info">
             <div className="container">
                 <div className="row info-padding">
                     <div className="row">
                         <div className="col-lg-12 text-center">
-                            <h2 className="section-heading">Info</h2>
+                            <h2 className="section-heading">{data.title}</h2>
                         </div>
                     </div>
 
                     <div>
                         <div className="col-md-12">
                             <h4 className="rules-subheader">Rules</h4>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <h4 className="rules">Registration</h4>
-                                    <p className="rules">
-                                        Online registration ends at 11:59PM on September 12th 2019 or when maximum event
-                                        capacity is reached. Capacity is 125 participants.
-                                </p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h4 className="rules">Team requirements</h4>
-                                    <p className="rules">
-                                        Teams may be composed of minimum 3 and a maximum 5 participants.
-                                </p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <h4 className="rules">Team formation</h4>
-                                    <p className="rules">
-                                        Participants may arrive with a pre-established team. Time will be provided on Friday
-                                        night for solo participants to form teams. People are expected to know their teams
-                                        by Saturday morning when they register them at 8:00 am. You will be required to
-                                        select a team name and designate a team spokesperson. Individuals may only
-                                        participate and register with one team. Each team is solely responsible for its own
-                                        cooperation and teamwork.
-                                </p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h4 className="rules">How long is it?</h4>
-                                    <p className="rules">
-                                        Teams may begin working at 10 AM on September 14th until demo time at 2 PM on
-                                        September 15th. All technical designs, developed code, and production assets for
-                                        each entry must be created during the VanHacks event.
-                                </p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <h4 className="rules">Languages & tools</h4>
-                                    <p className="rules">
-                                        Participants are expected to bring the necessary hardware and software tools to
-                                        build their competition entry. Teams are permitted to use open source tools and/or
-                                        code.
-                                </p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h4 className="rules">No outside development</h4>
-                                    <p className="rules">
-                                        All solutions must be developed during the course of VanHacks. Development occurs
-                                        between the start and end times of the hack. Participants may consult remote
-                                        resources via mobile phone, VoIP, chat, etc., to answer technical questions, but
-                                        remote resources (such as outside people sending code) are not allowed to develop or
-                                        produce assets used in competition entries.
-                                </p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <h4 className="rules">Code, design, SFX, music</h4>
-                                    <p className="rules">
-                                        To ensure a level playing field for all contestants, all code, design, art, music,
-                                        SFX, and assets must be created during the duration of VanHacks. We want to ensure
-                                        that all participants start off on the same footing and preserve the true nature of
-                                        a hackathon. You are, however, free to make plans, create wireframes, and brainstorm
-                                        prior to the event.
-                                </p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h4 className="rules">Code of conduct</h4>
-                                    <p className="rules">
-                                        VanHacks is dedicated to providing a harassment-free experience for everyone,
-                                        regardless of gender, gender identity and expression, age, sexual orientation,
-                                        disability, physical appearance, body size, race, ethnicity, nationality, religion,
-                                        previous hackathon attendance or computing experience (or lack of any of the
-                                        aforementioned). We do not tolerate harassment of VanHacks participants in any form.
-                                        Sexual language and imagery is not appropriate at VanHacks. VanHacks participants
-                                        violating these rules may be sanctioned or expelled from the hackathon without a
-                                        refund at the discretion of VanHacks organizers.
-                                </p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <h4 className="rules">Ownership</h4>
-                                    <p className="rules">
-                                        Ownership of the solution created by participants for VanHacks is owned by the
-                                        participants and the not-for-profit institution they hacked for. TTT Studios, VSW &
-                                        Sponsors do NOT have any rights to code created during VanHacks.
-                                </p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h4 className="rules">Open source</h4>
-                                    <p className="rules">
-                                        VanHacks judges will award 5 points to each project that is licensed as open source.
-                                        This is done in the spirit of "Act Local, Think Global..." where as a local
-                                        organization such as the Vancouver Food Bank may have similar challenges as the
-                                        Calgary Food Bank. By open sourcing the projects we extend the usefulness of the
-                                        code to the rest of the world.
-                                </p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <h4 className="rules">Judging</h4>
-                                    <p className="rules">
-                                        A judging panel of community personalities from a range of industries will score
-                                        competitors on innovation, design, quality and impact. Teams will have a maximum of
-                                        3 minutes to present and demonstrate their prototype to the judging panel. The
-                                        winning team will be announced on-site at 5:00 PM on September 15th. A maximum one
-                                        entry per team may be submitted. Event hosts are not responsible for any dispute
-                                        regarding prize dispersal or use.
-                                </p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h4 className="rules">Press release</h4>
-                                    <p className="rules">
-                                        By participating as a competitor in VanHacks, participants grant organizers and
-                                        participating members of the media rights to publicly disclose competition event
-                                        information, review and describe applications developed and presented during the
-                                        event, and rights to display event- related photos, screen shots, and links to
-                                        publicly available demonstrations of contest entries. Participants may be
-                                        photographed and/or videotaped during the Hackathon event. Participants agree that
-                                        the VanHacks hosts and sponsors may use any photographs or videos obtained in this
-                                        manner for promotional purposes, during or after the hackathon, in any media.
-                                </p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <h4 className="rules">Demos</h4>
-                                    <p className="rules">
-                                        Functional demos of the solution must be done live and not through a powerpoint or
-                                        prototype presentation.
-                                </p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h4 className="rules">Rule changes</h4>
-                                    <p className="rules">
-                                        VanHacks reserves the right to make rule modifications prior to the start of the
-                                        event. By participating each team member agrees to abide by these Official Rules.
-                                </p>
-                                </div>
-                            </div>
+                            {
+                                data.rules.map((r, index) => {
+                                    return (
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <h4 className="rules">{r.firstRule}</h4>
+                                                <p className="rules">{r.firstDescription}</p>
+                                            </div>
+                                            <div className="col-md-6">
+                                                <h4 className="rules">{r.secondRule}</h4>
+                                                <p className="rules">{r.secondDescription}</p>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
 
                             {/* <!-- FAQ Section --> */}
 

@@ -147,7 +147,7 @@ export default class Home extends Component {
                         <Mentors />
                         <div className='section-divider'></div>
 
-                        <Info />
+                        <Info data={info} />
                         <div className='section-divider'></div>
 
                         <Contact />

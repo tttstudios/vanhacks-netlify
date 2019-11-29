@@ -218,7 +218,7 @@ sponsors:
 judges:
     - judge: img/judges/kyle@2x.png
       fullName: Kyle Campbell
-      jobTitle: CEOmCTO.ai
+      jobTitle: CEO, CTO.ai
       description:
           Kyle is the founder of CTO.ai, a developer operations platform that helps developers customize their DevOps experience. Previously, Kyle founded Retsly, a backend-as-a-service for the real estate industry, that was acquired by Zillow after only 8 months. Kyle stayed on as a Group Manager at Zillow while also acting as a core contributor at the popular open source project; FeathersJS through 2018. In 2019, Kyle began angel investing in enterprise SaaS, PaaS and developer centric business models.
     - judge: img/judges/ozge@2x.png
@@ -248,26 +248,31 @@ mentors:
 info:
     title: Info
     rules:
-        - rule: Registration
-          description:
+        - firstRule: Registration
+          firstDescription:
               Online registration ends at 11:59PM on September 12th 2019 or when maximum event
               capacity is reached. Capacity is 125 participants.
-        - rule: Team requirements
-          description:
+          secondRule: Team requirements
+          secondDescription:
               Teams may be composed of minimum 3 and a maximum 5 participants.
-        - rule: Team formation
-          description:
+        - firstRule: Team formation
+          firstDescription:
               Participants may arrive with a pre-established team. Time will be provided on Friday
               night for solo participants to form teams. People are expected to know their teams
               by Saturday morning when they register them at 8:00 am. You will be required to
               select a team name and designate a team spokesperson. Individuals may only
               participate and register with one team. Each team is solely responsible for its own
               cooperation and teamwork.
-        - rule: How long is it?
-          description: 
+          secondRule: How long is it?
+          secondDescription: 
               Teams may begin working at 10 AM on September 14th until demo time at 2 PM on
               September 15th. All technical designs, developed code, and production assets for
               each entry must be created during the VanHacks event.
+        - firstRule: Hey
+          firstDescription:
+              Hey
+          secondRule:
+          secondDescription:
     faq:
         - q: Do I need to be a developer to attend?
           answer: 

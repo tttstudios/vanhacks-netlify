@@ -324,13 +324,23 @@ collections:
                 widget: list,
                 fields: [
                   {
-                    label: Rule,
-                    name: rule,
+                    label: First Rule In Row,
+                    name: firstRule,
                     widget: string,
                   },
                   {
                     label: Description,
-                    name: description,
+                    name: firstDescription,
+                    widget: text,
+                  },
+                  {
+                    label: Second Rule In Row,
+                    name: secondRule,
+                    widget: string,
+                  },
+                  {
+                    labe: Second Description In Row,
+                    name: secondDescription,
                     widget: text,
                   }
                 ]
