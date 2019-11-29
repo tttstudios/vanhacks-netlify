@@ -39,7 +39,7 @@ collections:
                     widget: string,
                   }
                 ]
-              },
+              }
           - {
             label: About,
             name: about,
