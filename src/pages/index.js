@@ -141,7 +141,7 @@ export default class Home extends Component {
                         <Judges data={judges} />
                         <div className='section-divider'></div>
 
-                        <Hosts />
+                        <Hosts data={hosts} />
                         <div className='section-divider'></div>
 
                         <Mentors />

@@ -34,7 +34,6 @@ export default function Judges({ data }) {
                                         <div className="judge-description">{j.description}</div>
                                     </div>
                                 </div>
-
                             )
                         }
                     })}
