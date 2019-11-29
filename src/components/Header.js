@@ -1,8 +1,9 @@
 // import Link from 'next/link';
 import Head from 'next/head';
 
-const Header = () => (
+const Header = ({ image }) => (
     <header>
+        <img src={image} alt="" />
         <div className="container">
             <div className="intro-text">
                 <div className="intro-heading">September 13-15, 2019</div>

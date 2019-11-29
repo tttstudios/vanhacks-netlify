@@ -38,7 +38,7 @@ collections:
                   },
                   {
                     label: Alt,
-                    name: Alt,
+                    name: alt,
                     widget: string,
                   },
                   {

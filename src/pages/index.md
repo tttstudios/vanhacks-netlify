@@ -1,6 +1,5 @@
 ---
-templateKey: index-page
-headerImage: /img/home-jumbotron.jpg
+headerImage: /img/header-banner@2x.png
 date: September 13-15, 2019
 vanhacksLogo: img/logos/vanhacks_logo_white@2x.png
 vanhacksSlogan: img/forsocialgood@2.png
