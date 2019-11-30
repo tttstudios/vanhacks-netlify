@@ -274,19 +274,29 @@ info:
           secondRule:
           secondDescription:
     faq:
-        - q: Do I need to be a developer to attend?
-          answer: 
+        - firstQ: Do I need to be a developer to attend?
+          firstAnswerOne: 
               To be a participant you need to be either a developer or a UI/UX designer.
-        - q: Do I need a team to register?
-          answer:
+          firstHref:
+          firstAnswerTwo:
+          secondQ: Do I need a team to register?
+          secondAnswerOne:
               No you don't need to be part of a team to register. We will be hosting a Friday
               night social at
-        - q: What should I bring?
-          answer: 
+          secondHref:
+          secondAnswerTwo:
+        - firstQ: What should I bring?
+          firstAnswerOne: 
               Generally, you’ll need to bring your computer, a charger and any other devices that
               will contribute to the application's creation. As for food, we have you covered but
               if you want anything in particular there is a kitchen to make tea and prepare small
               bites.
+          firstHref:
+          firstAnswerTwo:
+          secondQ:
+          secondAnswerOne:
+          secondHref:
+          secondAnswerTwo:
 ---      
 
 

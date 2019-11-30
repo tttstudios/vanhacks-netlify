@@ -346,18 +346,48 @@ collections:
                 ]
               },
               {
-                label: FAQ,
+                label: FAQs,
                 name: faq,
                 widget: list,
                 fields: [
                   {
-                    label: Question,
-                    name: q,
+                    label: First Question In Row,
+                    name: firstQ,
                     widget: string,
                   },
                   {
-                    labe: Answer,
-                    name: answer,
+                    label: Answer Part 1,
+                    name: firstAnswerOne,
+                    widget: text,
+                  },
+                  {
+                    label: Hyper Link,
+                    name: firstHref,
+                    widget: string,
+                  },
+                  {
+                    label: Answer Part 2,
+                    name: firstAnswerTwo,
+                    widget: text,
+                  },
+                  {
+                    label: Second Question In Row,
+                    name: secondQ,
+                    widget: string,
+                  },
+                  {
+                    label: Answer Part 1,
+                    name: secondAnswerOne,
+                    widget: text,
+                  },
+                  {
+                    label: Hyper Link,
+                    name: secondHref,
+                    widget: string,
+                  },
+                  {
+                    label: Answer Part 2,
+                    name: secondAnswerTwo,
                     widget: text,
                   }
                 ]
