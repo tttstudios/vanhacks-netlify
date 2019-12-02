@@ -108,6 +108,15 @@ export default class Home extends Component {
                     <Layout>
                         <Header image={headerImage} />
 
+                        {/* <!-- Ticket purchasing section--> */}
+                        <section id="ticket-purchasing-section" style={{ display: 'none' }}>
+                            <div className="container">
+                                <div className="col-lg-12">
+                                    <iframe src="https://events.amanda-ai.com/e/1/embed" frameborder="0" style={{ overflow: 'hidden', width: '100%', minHeight: '350px' }}></iframe>
+                                </div>
+                            </div>
+                        </section>
+
                         <div className="container">
                             <p className="about-subheader-for-images">
                                 Hacking and caring with
@@ -172,7 +181,7 @@ export default class Home extends Component {
 
                     {/* <!-- Custom Theme JavaScript --> */}
                     <script src="/js/agency.js"></script>
-                </body>
+                </body >
             </>
         )
     }
