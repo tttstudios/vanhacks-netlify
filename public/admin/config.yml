@@ -151,11 +151,13 @@ collections:
                         label: Location Title,
                         name: locationTitle,
                         widget: string,
+                        required: false
                       },
                       {
                         label: Location Url,
                         name: locationUrl,
                         widget: string,
+                        required: false
                       },
                       {
                         label: Description,
@@ -325,11 +327,13 @@ collections:
                     label: Second Rule In Row,
                     name: secondRule,
                     widget: string,
+                    required: false
                   },
                   {
                     labe: Second Description In Row,
                     name: secondDescription,
                     widget: text,
+                    required: false
                   }
                 ]
               },
@@ -352,31 +356,37 @@ collections:
                     label: Hyper Link,
                     name: firstHref,
                     widget: string,
+                    required: false
                   },
                   {
                     label: Answer Part 2,
                     name: firstAnswerTwo,
                     widget: text,
+                    required: false
                   },
                   {
                     label: Second Question In Row,
                     name: secondQ,
                     widget: string,
+                    required: false
                   },
                   {
                     label: Answer Part 1,
                     name: secondAnswerOne,
                     widget: text,
+                    required: false
                   },
                   {
                     label: Hyper Link,
                     name: secondHref,
                     widget: string,
+                    required: false
                   },
                   {
                     label: Answer Part 2,
                     name: secondAnswerTwo,
                     widget: text,
+                    required: false
                   }
                 ]
               }

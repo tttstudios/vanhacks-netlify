@@ -30,7 +30,6 @@ export default function Schedule({ data }) {
                                                 } else {
                                                     return (
                                                         <div className="schedule-event-section">
-                                                            {console.log(d.timeBlocks.length)}
                                                             <p className="time">{t.time}</p>
                                                             <h4 className="title">{t.title}</h4>
                                                             <p className="description">{t.description}</p>
