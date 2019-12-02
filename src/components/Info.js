@@ -15,7 +15,7 @@ export default function Info({ data }) {
                             {
                                 data.rules.map((r, index) => {
                                     return (
-                                        <div className="row">
+                                        <div key={index} className="row">
                                             <div className="col-md-6">
                                                 <h4 className="rules">{r.firstRule}</h4>
                                                 <p className="rules">{r.firstDescription}</p>
@@ -34,7 +34,7 @@ export default function Info({ data }) {
                             <h4 className="rules-subheader" style={{ paddingTop: '50px' }}>FAQ</h4>
                             {data.faq.map((faq, index) => {
                                 return (
-                                    <div className="row">
+                                    <div key={index} className="row">
                                         <div className="col-md-6">
                                             <h4 className="rules">{faq.firstQ}</h4>
                                             <p className="rules">

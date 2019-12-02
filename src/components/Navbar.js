@@ -3,7 +3,7 @@ import Head from 'next/head';
 const Navbar = () => (
 
     /* <!-- Navigation --> */
-    <nav className="navbar navbar-default navbar-fixed-top navbar-shrink" >
+    <nav className="navbar navbar-default navbar-fixed-top" >
         <div className="container">
             {/* <!-- Brand and toggle get grouped for better mobile display --> */}
             <div className="navbar-header page-scroll">

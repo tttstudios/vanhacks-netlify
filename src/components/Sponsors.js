@@ -13,7 +13,7 @@ export default function Sponsors({ data }) {
                         <div className="col-md-3 section-subheading-founding-sponsor">Founding Sponsors</div>
                         {data.foundingSponsors.map((s, index) => {
                             return (
-                                <div className="col-md-4 sponsor-small">
+                                <div key={index} className="col-md-4 sponsor-small">
                                     <a href={s.url} target="_blank">
                                         <img className="img-sponsor-small img-responsive" src={s.sponsor}
                                             alt={s.alt} />
@@ -36,7 +36,7 @@ export default function Sponsors({ data }) {
                                     {data.eventSponsors.map((s, index) => {
                                         if (s.tier == 1) {
                                             return (
-                                                <div className="col-xs-12 col-sm-4 col-md-4">
+                                                <div key={index} className="col-xs-12 col-sm-4 col-md-4">
                                                     <a href={s.url} target="_blank">
                                                         <img className="img-centered img-community-sponsor img-responsive"
                                                             src={s.sponsor}
@@ -51,7 +51,7 @@ export default function Sponsors({ data }) {
                                     {data.eventSponsors.map((s, index) => {
                                         if (s.tier == 2) {
                                             return (
-                                                <div className="col-xs-6 col-sm-3">
+                                                <div key={index} className="col-xs-6 col-sm-3">
                                                     <a href={s.url} target="_blank">
                                                         <img className="img-centered img-responsive silver-sponsor"
                                                             src={s.sponsor}
@@ -67,7 +67,7 @@ export default function Sponsors({ data }) {
                                     {data.eventSponsors.map((s, index) => {
                                         if (s.tier == 3) {
                                             return (
-                                                <div className="col-xs-4 col-sm-2">
+                                                <div key={index} className="col-xs-4 col-sm-2">
                                                     <a href={s.url} target="_blank">
                                                         <img className="img-centered img-responsive bronze-sponsor-large"
                                                             src={s.sponsor}

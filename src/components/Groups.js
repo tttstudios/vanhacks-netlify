@@ -8,7 +8,7 @@ export default function Groups({ data }) {
 
                         <div className="groups-body">
                             {data.description.map((paragraph, index) => {
-                                return (<div style={{ marginBottom: '20px' }}>
+                                return (<div key={index} style={{ marginBottom: '20px' }}>
                                     {paragraph.p}
                                 </div>)
                             })}
@@ -26,7 +26,7 @@ export default function Groups({ data }) {
                         </div>
                             {data.instructions.map((i, index) => {
                                 return (
-                                    <div className="col-md-3">
+                                    <div key={index} className="col-md-3">
                                         <div className="entry-container">
                                             <div className="entry-step-number col-md-4">
                                                 {index + 1}

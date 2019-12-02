@@ -18,7 +18,7 @@ export default function Schedule({ data }) {
                                             d.timeBlocks.map((t, index) => {
                                                 if (t.locationTitle) {
                                                     return (
-                                                        <div className="schedule-event-section">
+                                                        <div key={index} className="schedule-event-section">
                                                             <p className="time">{t.time}</p>
                                                             <h4 className="title">{t.title}</h4>
                                                             <p className="location">
@@ -29,7 +29,7 @@ export default function Schedule({ data }) {
                                                     )
                                                 } else {
                                                     return (
-                                                        <div className="schedule-event-section">
+                                                        <div key={index} className="schedule-event-section">
                                                             <p className="time">{t.time}</p>
                                                             <h4 className="title">{t.title}</h4>
                                                             <p className="description">{t.description}</p>

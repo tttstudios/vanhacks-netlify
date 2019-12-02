@@ -102,9 +102,8 @@ export default class Home extends Component {
                     <meta name="twitter:image" content="http://www.vanhacks.com/img/social_banner_8%402x.png" />
                     <meta name="twitter:creator" content="@TTT_Studios" />
                     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
                 </Head>
-                <article>
+                <body>
                     <HomeContent />
                     <Layout>
                         <Header image={headerImage} />
@@ -117,7 +116,7 @@ export default class Home extends Component {
                                 <div className="text-center">
                                     {collaborators.map((c, index) => {
                                         return (
-                                            <a href={c.href} target="_blank">
+                                            <a key={index} href={c.href} target="_blank">
                                                 <img className="img-sponsor-small about-img-left"
                                                     src={c.image} alt={c.alt} />
                                             </a>
@@ -153,7 +152,27 @@ export default class Home extends Component {
 
                         <Contact />
                     </Layout>
-                </article>
+
+                    {/* <!-- jQuery --> */}
+                    <script src="../../public/js/jquery.js"></script>
+
+                    {/* <!-- Bootstrap Core JavaScript --> */}
+                    <script src="../../public/js/bootstrap.min.js"></script>
+
+                    {/* <!-- Plugin JavaScript --> */}
+                    <script src="../../public/js/classie.js"></script>
+                    <script src="../../public/js/cbpAnimatedHeader.js"></script>
+
+                    {/* <!-- Contact Form JavaScript --> */}
+                    <script src="../../public/js/jqBootstrapValidation.js"></script>
+                    <script src="../../public/js/contact_me.js"></script>
+
+                    {/* <!-- Index.js file--> */}
+                    <script src="../../public/js/index.js"></script>
+
+                    {/* <!-- Custom Theme JavaScript --> */}
+                    <script src="../../public/js/agency.js"></script>
+                </body>
             </>
         )
     }

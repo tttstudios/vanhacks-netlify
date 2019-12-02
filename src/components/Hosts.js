@@ -12,7 +12,7 @@ export default function Hosts({ data }) {
                 <div className="row">
                     {data.map((h, index) => {
                         return (
-                            <div className="col-xs-6 col-md-2">
+                            <div key={index} className="col-xs-6 col-md-2">
                                 <div className="team-member">
                                     <img className="img-host img-host-bg"
                                         src={h.host}

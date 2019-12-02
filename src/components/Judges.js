@@ -13,7 +13,7 @@ export default function Judges({ data }) {
                     {data.map((j, index) => {
                         if ((index % 2) == 0) {
                             return (
-                                <div className="row judge">
+                                <div key={index} className="row judge">
                                     <div className="col-xs-12 col-sm-2 d-flex jc-center align-center">
                                         <img className='judge-image' src={j.judge} />
                                     </div>
@@ -25,7 +25,7 @@ export default function Judges({ data }) {
                             )
                         } else {
                             return (
-                                <div className="row judge">
+                                <div key={index} className="row judge">
                                     <div className="col-xs-12 col-sm-2 col-md-offset-2 d-flex jc-center align-center">
                                         <img className='judge-image' src={j.judge} />
                                     </div>
