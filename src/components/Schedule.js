@@ -11,7 +11,7 @@ export default function Schedule({ data }) {
                     <div className="row">
                         {data.days.map((d, index) => {
                             return (
-                                <div className="col-md-4">
+                                <div key={index} className="col-md-4">
                                     <div className="col schedule">
                                         <h4 className="date">{d.day}</h4>
                                         {
