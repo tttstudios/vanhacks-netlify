@@ -258,8 +258,6 @@ info:
         production assets for each entry must be created during the VanHacks
         event.
       secondRule: How long is it?
-    - firstDescription: Hey
-      firstRule: Hey
   title: Info
 ---
 
