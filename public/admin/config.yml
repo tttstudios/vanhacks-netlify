@@ -135,44 +135,32 @@ collections:
                   {
                     label: Time Blocks,
                     name: timeBlocks,
-                    widget: object,
+                    widget: list,
                     fields: [
+                      {
+                        label: Time,
+                        name: time,
+                        widget: string,
+                      },
                       {
                         label: Title,
                         name: title,
                         widget: string,
                       },
                       {
-                        label: Time Block,
-                        name: timeBlock,
-                        widget: list,
-                        fields: [
-                          {
-                            label: Time,
-                            name: time,
-                            widget: string,
-                          },
-                          {
-                            label: Title,
-                            name: title,
-                            widget: string,
-                          },
-                          {
-                            label: Location Title,
-                            name: locationTitle,
-                            widget: string,
-                          },
-                          {
-                            label: Location Url,
-                            name: locationUrl,
-                            widget: string,
-                          },
-                          {
-                            label: Description,
-                            name: description,
-                            widget: text,
-                          }
-                        ]
+                        label: Location Title,
+                        name: locationTitle,
+                        widget: string,
+                      },
+                      {
+                        label: Location Url,
+                        name: locationUrl,
+                        widget: string,
+                      },
+                      {
+                        label: Description,
+                        name: description,
+                        widget: text,
                       }
                     ]
                   }

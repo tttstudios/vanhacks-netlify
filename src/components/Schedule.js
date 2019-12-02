@@ -14,33 +14,31 @@ export default function Schedule({ data }) {
                                 <div className="col-md-4">
                                     <div className="col schedule">
                                         <h4 className="date">{d.day}</h4>
-                                        <div className="schedule-event-section">
-                                            {
-                                                d.timeBlocks.map((t, index) => {
-                                                    if (t.locationTitle) {
-                                                        return (
-                                                            <div>
-                                                                <p className="time">{t.time}</p>
-                                                                <h4 className="title">{t.title}</h4>
-                                                                <p className="location">
-                                                                    <a href={t.locationUrl} target="_blank">{t.locationTitle}</a>
-                                                                </p>
-                                                                <p className="description">{t.description}</p>
-                                                            </div>
-                                                        )
-                                                    } else {
-                                                        return (
-                                                            <div>
-                                                                {console.log(d.timeBlocks.length)}
-                                                                <p className="time">{t.time}</p>
-                                                                <h4 className="title">{t.title}</h4>
-                                                                <p className="description">{t.description}</p>
-                                                            </div>
-                                                        )
-                                                    }
-                                                })
-                                            }
-                                        </div>
+                                        {
+                                            d.timeBlocks.map((t, index) => {
+                                                if (t.locationTitle) {
+                                                    return (
+                                                        <div className="schedule-event-section">
+                                                            <p className="time">{t.time}</p>
+                                                            <h4 className="title">{t.title}</h4>
+                                                            <p className="location">
+                                                                <a href={t.locationUrl} target="_blank">{t.locationTitle}</a>
+                                                            </p>
+                                                            <p className="description">{t.description}</p>
+                                                        </div>
+                                                    )
+                                                } else {
+                                                    return (
+                                                        <div className="schedule-event-section">
+                                                            {console.log(d.timeBlocks.length)}
+                                                            <p className="time">{t.time}</p>
+                                                            <h4 className="title">{t.title}</h4>
+                                                            <p className="description">{t.description}</p>
+                                                        </div>
+                                                    )
+                                                }
+                                            })
+                                        }
                                     </div>
                                 </div>
                             )

@@ -58,90 +58,81 @@ schedule:
     days:
         - day: Friday - 9/13
           timeBlocks:
-                - timeBlock:
-                    time: 6:00 PM
-                    title: Team Formation Social
-                    locationTitle: '@TTT Studios'
-                    locationUrl: https://goo.gl/maps/DC3VfMgern9Vxq3h8
-                    description: 
-                        If you are already on a team, this event is optional. Those not on a team are
-                        required to come and learn each other's challenge ideas and form teams.
+            - time: 6:00 PM
+              title: Team Formation Social
+              locationTitle: '@TTT Studios'
+              locationUrl: https://goo.gl/maps/DC3VfMgern9Vxq3h8
+              description: 
+                  If you are already on a team, this event is optional. Those not on a team are
+                  required to come and learn each other's challenge ideas and form teams.
         - day: Saturday - 9/14
           timeBlocks:
-                - timeBlock:
-                    time: 8:00 AM
-                    title: Participant Registration
-                    locationTitle: '@BCIT Downtown Campus'
-                    locationUrl: https://goo.gl/maps/KbKPQCbYYQf2FUbDA
-                    description:
-                        Each participant will check-in at the entrance. Information on how to set up and
-                        make themselves at home will be provided.
-                - timeBlock:
-                    time: 9:00 AM
-                    title: Opening Ceremony & QA Session
-                    locationTitle:
-                    locationUrl:
-                    description:
-                        Participants will be informed of the challenges for the hackathon, available APIs to
-                        work with, what kind of applications they are expected to realize, sponsors, judges,
-                        judging criteria, mentors, rules and any other information.
-                - timeBlock:
-                    time: 10:00 AM
-                    title: Start Hacking
-                    locationTitle:
-                    locationUrl:
-                    description:
-                        The challenge begins! Vanhacks will come around and register teams and their chosen
-                        challenge. Mentors will be available throughout most of the hackathon to lend advice
-                        on how to tackle problems.
-                - timeBlock:
-                    time: 1:00 PM
-                    title: Lunch
-                    locationTitle:
-                    locationUrl:
-                    description:    
-                        Lunch will be served between 1:00 PM and 2:30 PM. Vegetarian, vegan and gluten-free
-                        options available for those who request it.
-                - timeBlock:
-                    time: 7:00 PM
-                    title: Dinner
-                    locationTitle:
-                    locationUrl:
-                    description:
-                        Dinner is served between 7:00 PM and 8:00 PM. Vegetarian, vegan and gluten-free
-                        options available for those who request it.
+            - time: 8:00 AM
+              title: Participant Registration
+              locationTitle: '@BCIT Downtown Campus'
+              locationUrl: https://goo.gl/maps/KbKPQCbYYQf2FUbDA
+              description:
+                  Each participant will check-in at the entrance. Information on how to set up and
+                  make themselves at home will be provided.
+            - time: 9:00 AM
+              title: Opening Ceremony & QA Session
+              locationTitle:
+              locationUrl:
+              description:
+                  Participants will be informed of the challenges for the hackathon, available APIs to
+                  work with, what kind of applications they are expected to realize, sponsors, judges,
+                  judging criteria, mentors, rules and any other information.
+            - time: 10:00 AM
+              title: Start Hacking
+              locationTitle:
+              locationUrl:
+              description:
+                  The challenge begins! Vanhacks will come around and register teams and their chosen
+                  challenge. Mentors will be available throughout most of the hackathon to lend advice
+                  on how to tackle problems.
+            - time: 1:00 PM
+              title: Lunch
+              locationTitle:
+              locationUrl:
+              description:    
+                  Lunch will be served between 1:00 PM and 2:30 PM. Vegetarian, vegan and gluten-free
+                  options available for those who request it.
+            - time: 7:00 PM
+              title: Dinner
+              locationTitle:
+              locationUrl:
+              description:
+                  Dinner is served between 7:00 PM and 8:00 PM. Vegetarian, vegan and gluten-free
+                  options available for those who request it.
         - day: Sunday - 9/15
           timeBlocks:
-                - timeBlock:
-                    time: 8:00 AM
-                    title: Breakfast
-                    locationTitle:
-                    locationUrl:
-                    description:
-                        Breakfast will be served between 8:00 AM and 9:30 AM. Vegetarian, vegan and
-                        gluten-free options available for those who request it.
-                - timeBlock:
-                    time: 12:00 PM
-                    title: Lunch
-                    locationTitle:
-                    locationUrl:
-                    description:
-                        Lunch is served between 12:00 PM and 1:30 PM. Vegetarian, vegan and gluten-free
-                        options available for those who request it.
-                - timeBlock:
-                    time: 2:00 PM
-                    title: Demos to Judges Begin
-                    locationTitle:
-                    locationUrl:
-                    description:
-                        With around 20 teams participating, each demo will be limited to 3 minutes.
-                - timeBlock:
-                    time: 5:00 PM
-                    title: Closing Ceremony
-                    locationTitle:
-                    locationUrl:
-                    description:
-                        Winners are announced and presented with prizes, Prizes to be determined.
+            - time: 8:00 AM
+              title: Breakfast
+              locationTitle:
+              locationUrl:
+              description:
+                  Breakfast will be served between 8:00 AM and 9:30 AM. Vegetarian, vegan and
+                  gluten-free options available for those who request it.
+            - time: 12:00 PM
+              title: Lunch
+              locationTitle:
+              locationUrl:
+              description:
+                  Lunch is served between 12:00 PM and 1:30 PM. Vegetarian, vegan and gluten-free
+                  options available for those who request it.
+            - time: 2:00 PM
+              title: Demos to Judges Begin
+              locationTitle:
+              locationUrl:
+              description:
+                  With around 20 teams participating, each demo will be limited to 3 minutes.
+            - timeBlock:
+              time: 5:00 PM
+              title: Closing Ceremony
+              locationTitle:
+              locationUrl:
+              description:
+                  Winners are announced and presented with prizes, Prizes to be determined.
 sponsors:
     title: Founding Sponsors
     foundingSponsors:
