@@ -104,8 +104,8 @@ export default class Home extends Component {
                     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
                 </Head>
                 <article>
+                    <HomeContent />
                     <Layout>
-                        <HomeContent />
                         <Header image={headerImage} />
 
                         <div className="container">
@@ -132,7 +132,7 @@ export default class Home extends Component {
                         <Groups data={groups} />
                         <div className='section-divider'></div>
 
-                        <Schedule />
+                        <Schedule data={schedule} />
                         <div className='section-divider'></div>
 
                         <Sponsors data={sponsors} />

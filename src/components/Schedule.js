@@ -1,34 +1,52 @@
-export default function Schedule() {
+export default function Schedule({ data }) {
     return (
         <section id="schedule">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h2 className="section-heading">Schedule</h2>
+                        <h2 className="section-heading">{data.title}</h2>
                     </div>
                 </div>
                 <div className="row schedule-padding">
                     <div className="row">
-                        <div className="col-md-4">
-                            <div className="col schedule">
-                                <h4 className="date">Friday - 9/13</h4>
-                                <div className="schedule-event-section">
-                                    <div>
-                                        <p className="time">6:00 PM</p>
-                                        <h4 className="title">Team Formation Social</h4>
-                                        <p className="location"><a href="https://goo.gl/maps/DC3VfMgern9Vxq3h8"
-                                            target="_blank">@TTT Studios</a></p>
-                                        <p className="description">
-                                            If you are already on a team, this event is optional. Those not on a team are
-                                            required
-                                            to come and learn each other's challenge ideas and form teams.
-                                    </p>
+                        {data.days.map((d, index) => {
+                            return (
+                                <div className="col-md-4">
+                                    <div className="col schedule">
+                                        <h4 className="date">{d.day}</h4>
+                                        <div className="schedule-event-section">
+                                            {
+                                                d.timeBlocks.map((t, index) => {
+                                                    if (t.locationTitle) {
+                                                        return (
+                                                            <div>
+                                                                <p className="time">{t.time}</p>
+                                                                <h4 className="title">{t.title}</h4>
+                                                                <p className="location">
+                                                                    <a href={t.locationUrl} target="_blank">{t.locationTitle}</a>
+                                                                </p>
+                                                                <p className="description">{t.description}</p>
+                                                            </div>
+                                                        )
+                                                    } else {
+                                                        return (
+                                                            <div>
+                                                                {console.log(d.timeBlocks.length)}
+                                                                <p className="time">{t.time}</p>
+                                                                <h4 className="title">{t.title}</h4>
+                                                                <p className="description">{t.description}</p>
+                                                            </div>
+                                                        )
+                                                    }
+                                                })
+                                            }
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            )
+                        })}
 
-                        <div className="col-md-4">
+                        {/* <div className="col-md-4">
                             <div className="col schedule">
                                 <h4 className="date">Saturday - 9/14</h4>
 
@@ -121,7 +139,8 @@ export default function Schedule() {
                                 </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+
                     </div>
                 </div>
             </div>

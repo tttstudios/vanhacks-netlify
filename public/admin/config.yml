@@ -135,7 +135,7 @@ collections:
                   {
                     label: Time Blocks,
                     name: timeBlocks,
-                    widget: list,
+                    widget: object,
                     fields: [
                       {
                         label: Title,
