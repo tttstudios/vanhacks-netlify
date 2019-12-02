@@ -154,24 +154,24 @@ export default class Home extends Component {
                     </Layout>
 
                     {/* <!-- jQuery --> */}
-                    <script src="../../public/js/jquery.js"></script>
+                    <script src="/js/jquery.js"></script>
 
                     {/* <!-- Bootstrap Core JavaScript --> */}
-                    <script src="../../public/js/bootstrap.min.js"></script>
+                    <script src="/js/bootstrap.min.js"></script>
 
                     {/* <!-- Plugin JavaScript --> */}
-                    <script src="../../public/js/classie.js"></script>
-                    <script src="../../public/js/cbpAnimatedHeader.js"></script>
+                    <script src="/js/classie.js"></script>
+                    <script src="/js/cbpAnimatedHeader.js"></script>
 
                     {/* <!-- Contact Form JavaScript --> */}
-                    <script src="../../public/js/jqBootstrapValidation.js"></script>
-                    <script src="../../public/js/contact_me.js"></script>
+                    <script src="/js/jqBootstrapValidation.js"></script>
+                    <script src="/js/contact_me.js"></script>
 
                     {/* <!-- Index.js file--> */}
-                    <script src="../../public/js/index.js"></script>
+                    <script src="/js/index.js"></script>
 
                     {/* <!-- Custom Theme JavaScript --> */}
-                    <script src="../../public/js/agency.js"></script>
+                    <script src="/js/agency.js"></script>
                 </body>
             </>
         )
