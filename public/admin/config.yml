@@ -209,6 +209,11 @@ collections:
                     label: Url,
                     name: url,
                     widget: string,
+                  },
+                  {
+                    label: Description,
+                    name: description,
+                    widget: text,
                   }
                 ]
               },

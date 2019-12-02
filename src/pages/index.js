@@ -102,6 +102,7 @@ export default class Home extends Component {
                     <meta name="twitter:image" content="http://www.vanhacks.com/img/social_banner_8%402x.png" />
                     <meta name="twitter:creator" content="@TTT_Studios" />
                     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
                 </Head>
                 <article>
                     <HomeContent />

@@ -25,7 +25,6 @@ about:
         global. All hacks are encouraged to be published open source so that an
         organization in Vancouver can benefit just as much as a similar
         nonprofit on the other side of Canada or the other side of the World.
-    - p: asdasd
   image: img/about/photo@2x.png
   title: About VanHacks
 groups:
@@ -175,9 +174,20 @@ sponsors:
     - alt: VSW Logo
       sponsor: img/logos/VSW_logo.jpg
       url: 'http://vanstartupweek.ca/'
+      description:
+        Vancouver Startup Week is a week-long celebration connecting
+        entrepreneurs, investors, leaders, and friends to support our startup community. The city
+        will be teeming with events and networking receptions hosted by some of the biggest names in
+        the startup scene. Last year, VSW brought together more than 2,000 people, to more than 108
+        different events run by dozens of amazing community partners.                
     - alt: TTT studios logo
       sponsor: img/logos/ttt-logo.png
       url: 'https://ttt.studio'
+      description:
+        TTT Studios is an award winning Digital Innovation Studio with a strong belief in being
+        heavily involved in empowering the community. Having built solutions for more than 200
+        clients around the world, they work with industry leaders and challengers who have ambitious
+        goals and see the value in re-shaping their industries through technology.
   title: Founding Sponsors
 judges:
   - description: >-

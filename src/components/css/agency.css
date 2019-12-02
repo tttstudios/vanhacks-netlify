@@ -1559,7 +1559,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-  background-image: url(../img/logos/vanhacks_logo_colour@1x.png);
+  background-image: url(../../../public/img/logos/vanhacks_logo_colour@1x.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 15px;
@@ -1646,7 +1646,7 @@ fieldset[disabled] .btn-xl.active {
   }
 
   .navbar-default .navbar-brand {
-    background-image: url(../img/logos/vanhacks_logo_white@2x.png);
+    background-image: url(../../../public/img/logos/vanhacks_logo_white@2x.png);
     background-size: contain;
     margin-top: 9px;
     width: 151px;
@@ -1700,7 +1700,7 @@ fieldset[disabled] .btn-xl.active {
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
-    background-image: url(../img/logos/vanhacks_logo_colour@2x.png);
+    background-image: url(../../../public/img/logos/vanhacks_logo_colour@2x.png);
     background-size: contain;
     margin-top: 9px;
     width: 151px;
@@ -1709,7 +1709,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background-image: url(../img/header-banner@2x.png);
+  background-image: url(../../../public/img/header-banner@2x.png);
   background-attachment: scroll;
   background-position: center bottom;
   -webkit-background-size: cover;
@@ -2309,7 +2309,7 @@ aside.clients img {
 }
 
 section#contact {
-  background: url("../img/footer-image@2x.png");
+  background: url("../../../public/img/footer-image@2x.png");
   background-size: cover;
 }
 
