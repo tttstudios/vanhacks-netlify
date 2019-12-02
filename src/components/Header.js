@@ -2,7 +2,7 @@
 import Head from 'next/head';
 
 const Header = ({ image }) => (
-    <header>
+    <header style={{ backgroundImage: `${image}` }}>
         {/* <img src={image} alt="" /> */}
         <div className="container">
             <div className="intro-text">
