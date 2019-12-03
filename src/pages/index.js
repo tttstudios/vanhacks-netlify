@@ -146,28 +146,28 @@ export default class Home extends Component {
                         </div>
 
                         <About data={about} />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Groups data={groups} />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Schedule data={schedule} />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Sponsors data={sponsors} />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Judges data={judges} />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Hosts data={hosts} />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Mentors />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Info data={info} />
-                        <div className='section-divider'></div>
+                        <div className="section-divider" />
 
                         <Contact />
                     </Layout>

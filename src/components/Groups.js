@@ -1,5 +1,3 @@
-import React, { Component } from 'react';
-
 export default function Groups({ data }) {
     return (
         <section id="groups">
