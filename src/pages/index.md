@@ -1,9 +1,8 @@
 ---
-headerImage: /img/header-banner@2x.png
-date: 'September 13-15, 2019'
-vanhacksLogo: img/logos/vanhacks_logo_white@2x.png
-vanhacksSlogan: img/forsocialgood@2.png
-buttonTitle: Get your tickets!
+header:
+  image: /img/header-banner@2x.png
+  date: 'September 13-15, 2019'
+  buttonTitle: Get your tickets!
 collaborators:
   - alt: VSW Logo
     href: 'http://vanstartupweek.ca/'
