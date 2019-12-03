@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function About({ data }) {
     return (
         <section id="about">

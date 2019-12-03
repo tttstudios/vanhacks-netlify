@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Info({ data }) {
     return (
         <section id="info">
@@ -64,3 +66,11 @@ export default function Info({ data }) {
         </section>
     );
 }
+
+Info.defaultProps = {
+    data: null,
+};
+
+Info.propTypes = {
+    data: PropTypes.object,
+};

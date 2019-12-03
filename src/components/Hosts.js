@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Hosts({ data }) {
     return (
         <section id="hosts">
@@ -20,7 +22,7 @@ export default function Hosts({ data }) {
                                 <p className="mentor-description">{h.description}</p>
                                 <ul className="list-inline social-buttons-host">
                                     <li>
-                                        <a href={h.socialMediaUrl} target="_blank">
+                                        <a href={h.socialMediaUrl} target="_blank" rel="noopener noreferrer">
                                             <i
                                                 className="fa fa-linkedin" />
                                         </a>
@@ -34,3 +36,11 @@ export default function Hosts({ data }) {
         </section>
     );
 }
+
+Hosts.defaultProps = {
+    data: null,
+};
+
+Hosts.propTypes = {
+    data: PropTypes.arrayOf(PropTypes.object),
+};

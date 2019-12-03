@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Groups({ data }) {
     return (
         <section id="groups">
@@ -14,7 +16,7 @@ export default function Groups({ data }) {
                             ))}
                         </div>
 
-                        <a href="https://volunteeringvancouver.ca/nonprofit-organizations/" target="_blank">
+                        <a href="https://volunteeringvancouver.ca/nonprofit-organizations/" target="_blank" rel="noopener noreferrer">
                             <div className="button-yellow group-button">
                                 {data.buttonTitle}
                             </div>
@@ -44,3 +46,11 @@ export default function Groups({ data }) {
         </section>
     );
 }
+
+Groups.defaultProps = {
+    data: null,
+};
+
+Groups.propTypes = {
+    data: PropTypes.object,
+};

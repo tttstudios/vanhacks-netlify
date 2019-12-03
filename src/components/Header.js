@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Header = ({ data }) => (
     <header style={{ backgroundImage: `${data.image}` }}>
         {/* <img src={image} alt="" /> */}
@@ -12,5 +14,13 @@ const Header = ({ data }) => (
         </div>
     </header>
 );
+
+Header.defaultProps = {
+    data: null,
+};
+
+Header.propTypes = {
+    data: PropTypes.object,
+};
 
 export default Header;

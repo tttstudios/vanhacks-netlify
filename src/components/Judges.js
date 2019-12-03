@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Judges({ data }) {
     return (
         <section id="judges">
@@ -10,11 +12,11 @@ export default function Judges({ data }) {
 
                 <div>
                     {data.map((j, index) => {
-                        if ((index % 2) == 0) {
+                        if ((index % 2) === 0) {
                             return (
                                 <div key={index} className="row judge">
                                     <div className="col-xs-12 col-sm-2 d-flex jc-center align-center">
-                                        <img className="judge-image" src={j.judge} />
+                                        <img className="judge-image" src={j.judge} alt={j.fullName} />
                                     </div>
                                     <div className="col-xs-12 col-sm-10 judge-bio">
                                         <div className="judge-title">
@@ -32,7 +34,7 @@ export default function Judges({ data }) {
                         return (
                             <div key={index} className="row judge">
                                 <div className="col-xs-12 col-sm-2 col-md-offset-2 d-flex jc-center align-center">
-                                    <img className="judge-image" src={j.judge} />
+                                    <img className="judge-image" src={j.judge} alt={j.fullName} />
                                 </div>
                                 <div className="col-xs-12 col-sm-10 col-md-8 judge-bio">
                                     <div className="judge-title">
@@ -49,7 +51,14 @@ export default function Judges({ data }) {
                     })}
                 </div>
             </div>
-
         </section>
     );
 }
+
+Judges.defaultProps = {
+    data: null,
+};
+
+Judges.propTypes = {
+    data: PropTypes.arrayOf(PropTypes.object),
+};
