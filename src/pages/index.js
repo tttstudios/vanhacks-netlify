@@ -101,9 +101,28 @@ export default class Home extends Component {
                     <meta name="twitter:site" content="@TTT_Studios" />
                     <meta name="twitter:image" content="http://www.vanhacks.com/img/social_banner_8%402x.png" />
                     <meta name="twitter:creator" content="@TTT_Studios" />
-                    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+                    {/* <!-- jQuery --> */}
+                    <script src="/js/jquery.js"></script>
+
+                    {/* <!-- Bootstrap Core JavaScript --> */}
+                    <script src="/js/bootstrap.min.js"></script>
+
+                    {/* <!-- Plugin JavaScript --> */}
+                    <script src="/js/classie.js"></script>
+                    <script src="/js/cbpAnimatedHeader.js"></script>
+
+                    {/* <!-- Contact Form JavaScript --> */}
+                    <script src="/js/jqBootstrapValidation.js"></script>
+                    <script src="/js/contact_me.js"></script>
+
+                    {/* <!-- Index.js file--> */}
+                    <script src="/js/index.js"></script>
+
+                    {/* <!-- Custom Theme JavaScript --> */}
+                    <script src="/js/agency.js"></script>
+                    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
                 </Head>
-                <body>
+                <body id="page-top" className="index">
                     <HomeContent />
                     <Layout>
                         <Header image={headerImage} />
@@ -112,7 +131,7 @@ export default class Home extends Component {
                         <section id="ticket-purchasing-section" style={{ display: 'none' }}>
                             <div className="container">
                                 <div className="col-lg-12">
-                                    <iframe src="https://events.amanda-ai.com/e/1/embed" frameborder="0" style={{ overflow: 'hidden', width: '100%', minHeight: '350px' }}></iframe>
+                                    <iframe src="https://events.amanda-ai.com/e/1/embed" frameBorder="0" style={{ overflow: 'hidden', width: '100%', minHeight: '350px' }}></iframe>
                                 </div>
                             </div>
                         </section>
@@ -161,27 +180,7 @@ export default class Home extends Component {
 
                         <Contact />
                     </Layout>
-
-                    {/* <!-- jQuery --> */}
-                    <script src="/js/jquery.js"></script>
-
-                    {/* <!-- Bootstrap Core JavaScript --> */}
-                    <script src="/js/bootstrap.min.js"></script>
-
-                    {/* <!-- Plugin JavaScript --> */}
-                    <script src="/js/classie.js"></script>
-                    <script src="/js/cbpAnimatedHeader.js"></script>
-
-                    {/* <!-- Contact Form JavaScript --> */}
-                    <script src="/js/jqBootstrapValidation.js"></script>
-                    <script src="/js/contact_me.js"></script>
-
-                    {/* <!-- Index.js file--> */}
-                    <script src="/js/index.js"></script>
-
-                    {/* <!-- Custom Theme JavaScript --> */}
-                    <script src="/js/agency.js"></script>
-                </body >
+                </body>
             </>
         )
     }

@@ -36,7 +36,7 @@ export default function Mentors() {
                                     <ul>
                                         <li>
                                             <input type="checkbox" defaultValue="1" name="group[24713][1]"
-                                                id="mce-group[24713]-24713-0" checked />
+                                                id="mce-group[24713]-24713-0" defaultChecked />
                                             <label htmlFor="mce-group[24713]-24713-0">mentor</label>
                                         </li>
                                     </ul>
@@ -47,8 +47,8 @@ export default function Mentors() {
                                 </div>
                                 {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
                                 <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true"><input type="text"
-                                    name="b_5907e3e94aaabdaf3a29b7f4c_bf87b78c48" tabIndex="-1" value="" /></div>
-                                <div className="clear"><input type="submit" value="Sign up" name="signup"
+                                    name="b_5907e3e94aaabdaf3a29b7f4c_bf87b78c48" tabIndex="-1" defaultValue="" /></div>
+                                <div className="clear"><input type="submit" defaultValue="Sign up" name="signup"
                                     id="mc-embedded-subscribe" className="button-yellow contact-email-button"
                                     style={{ border: 'none' }} /></div>
                             </div>
