@@ -1,7 +1,6 @@
 import Head from 'next/head';
-import { Component } from 'react'
+import { Component } from 'react';
 import { attributes, react as HomeContent } from './index.md';
-import Link from 'next/link';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
 import About from '../components/About';
@@ -20,14 +19,6 @@ import '../components/css/agency.css';
 import '../components/css/animate.min.css';
 import '../components/font-awesome/css/font-awesome.min.css';
 
-const PostLink = props => (
-    <li>
-        <Link href="/p/[id]" as={`/p/${props.id}`}>
-            <a>{props.id}</a>
-        </Link>
-    </li>
-);
-
 const ConsoleLog = ({ children }) => {
     console.log(children);
     return false;
@@ -35,7 +26,7 @@ const ConsoleLog = ({ children }) => {
 
 export default class Home extends Component {
     render() {
-        let {
+        const {
             headerImage,
             date,
             vanhacksLogo,
