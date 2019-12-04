@@ -44,11 +44,7 @@ About.defaultProps = {
 About.propTypes = {
     data: PropTypes.objectOf(
         PropTypes.shape({
-            description: PropTypes.arrayOf(
-                PropTypes.shape({
-                    p: PropTypes.string
-                })
-            ),
+            description: PropTypes.arrayOf(PropTypes.string),
             image: PropTypes.img,
             title: PropTypes.string
         })

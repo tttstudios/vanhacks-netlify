@@ -100,25 +100,6 @@ export default class Home extends Component {
                     <meta name="twitter:site" content="@TTT_Studios" />
                     <meta name="twitter:image" content="http://www.vanhacks.com/img/social_banner_8%402x.png" />
                     <meta name="twitter:creator" content="@TTT_Studios" />
-                    {/* <!-- jQuery --> */}
-                    <script src="/js/jquery.js" />
-
-                    {/* <!-- Bootstrap Core JavaScript --> */}
-                    <script src="/js/bootstrap.min.js" />
-
-                    {/* <!-- Plugin JavaScript --> */}
-                    <script src="/js/classie.js" />
-                    <script src="/js/cbpAnimatedHeader.js" />
-
-                    {/* <!-- Contact Form JavaScript --> */}
-                    <script src="/js/jqBootstrapValidation.js" />
-                    <script src="/js/contact_me.js" />
-
-                    {/* <!-- Index.js file--> */}
-                    <script src="/js/index.js" />
-
-                    {/* <!-- Custom Theme JavaScript --> */}
-                    <script src="/js/agency.js" />
                     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
                 </Head>
                 <body id="page-top" className="index">
@@ -177,6 +158,26 @@ export default class Home extends Component {
 
                         <Contact />
                     </Layout>
+
+                    {/* <!-- jQuery --> */}
+                    <script src="/js/jquery.js" />
+
+                    {/* <!-- Bootstrap Core JavaScript --> */}
+                    <script src="/js/bootstrap.min.js" />
+
+                    {/* <!-- Plugin JavaScript --> */}
+                    <script src="/js/classie.js" />
+                    <script src="/js/cbpAnimatedHeader.js" />
+
+                    {/* <!-- Contact Form JavaScript --> */}
+                    <script src="/js/jqBootstrapValidation.js" />
+                    <script src="/js/contact_me.js" />
+
+                    {/* <!-- Index.js file--> */}
+                    <script src="/js/index.js" />
+
+                    {/* <!-- Custom Theme JavaScript --> */}
+                    <script src="/js/agency.js" />
                 </body>
             </>
         );

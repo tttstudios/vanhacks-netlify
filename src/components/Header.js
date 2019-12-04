@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const Header = ({ image }) => (
     <header style={{ backgroundImage: `${image}` }}>
         {/* <img src={image} alt="" /> */}
