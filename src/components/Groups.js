@@ -42,7 +42,6 @@ export default function Groups({ data }) {
                     </div>
                 </div>
             </div>
-
         </section>
     );
 }
@@ -52,5 +51,18 @@ Groups.defaultProps = {
 };
 
 Groups.propTypes = {
-    data: PropTypes.object,
+    data: PropTypes.objectOf(PropTypes.shape({
+        buttonTitle: PropTypes.string,
+        description: PropTypes.arrayOf(
+            PropTypes.shape({
+                p: PropTypes.string
+            })
+        ),
+        instructions: PropTypes.arrayOf(
+            PropTypes.shape({
+                step: PropTypes.string
+            })
+        ),
+        title: PropTypes.string,
+    })),
 };

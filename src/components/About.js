@@ -36,3 +36,21 @@ export default function About({ data }) {
         </section>
     );
 }
+
+About.defaultProps = {
+    data: null
+};
+
+About.propTypes = {
+    data: PropTypes.objectOf(
+        PropTypes.shape({
+            description: PropTypes.arrayOf(
+                PropTypes.shape({
+                    p: PropTypes.string
+                })
+            ),
+            image: PropTypes.img,
+            title: PropTypes.string
+        })
+    )
+};

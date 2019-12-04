@@ -122,11 +122,6 @@ collections:
             widget: object,
             fields: [
               {
-                label: Title,
-                name: title,
-                widget: string,
-              },
-              {
                 label: Days,
                 name: days,
                 widget: list,

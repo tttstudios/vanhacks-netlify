@@ -60,5 +60,13 @@ Judges.defaultProps = {
 };
 
 Judges.propTypes = {
-    data: PropTypes.arrayOf(PropTypes.object),
+    data: PropTypes.arrayOf(
+        PropTypes.objectOf(
+            PropTypes.shape({
+                description: PropTypes.string,
+                fullName: PropTypes.string,
+                jobTitle: PropTypes.string,
+                judge: PropTypes.img
+            })
+        )),
 };

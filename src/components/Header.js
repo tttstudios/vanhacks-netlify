@@ -20,7 +20,13 @@ Header.defaultProps = {
 };
 
 Header.propTypes = {
-    data: PropTypes.object,
+    data: PropTypes.objectOf(
+        PropTypes.shape({
+            image: PropTypes.img,
+            date: PropTypes.string,
+            buttonTitle: PropTypes.string,
+        })
+    ),
 };
 
 export default Header;

@@ -1,3 +1,5 @@
+import { PropTypes } from 'prop-types';
+
 export default function Schedule({ data }) {
     return (
         <section id="schedule">
@@ -48,3 +50,17 @@ export default function Schedule({ data }) {
         </section>
     );
 }
+
+Schedule.propTypes = {
+    data: PropTypes.objectOf(PropTypes.shape({
+        title: PropTypes.string,
+        days: PropTypes.arrayOf(
+            PropTypes.objectOf(PropTypes.shape({
+                day: PropTypes.string,
+                timeBlocks: PropTypes.arrayOf(PropTypes.shape({
+                    description: PropTypes.string
+                }))
+            }))
+        )
+    }))
+};
