@@ -8,20 +8,17 @@ export default class Navbar extends Component {
             activeClass: 'navbar-normal'
         }
     }
+
     componentDidMount() {
         window.addEventListener('scroll', () => {
-            let activeClass = 'navbar-normal';
-            if (window.scrollY >= 100) {
-                activeClass = 'navbar-shrink';
-            }
-            this.setState({ activeClass });
+            window.scrollY >= 100 ? this.setState({ activeClass: 'navbar-shrink' }) : this.setState({ activeClass: 'navbar-normal' });
         });
     }
 
     componentWillUnmount() {
         window.removeEventListener('scroll');
-
     }
+
     render() {
 
         return (

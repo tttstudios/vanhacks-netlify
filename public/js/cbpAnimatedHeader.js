@@ -13,7 +13,6 @@ var cbpAnimatedHeader = (
             }, false);
         }
         function scrollPage() {
-            console.log('header under scrollPage()', header);
             var sy = scrollY();
             if (sy >= changeHeaderOn) {
                 classie.add(header, 'navbar-shrink');
