@@ -15,12 +15,24 @@ collections:
         label: "Landing Page"
         name: "index"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page.js"}
-          - {label: Header Image, name: headerImage, widget: image}
-          - {label: Date, name: date, widget: string}
-          - {label: Vanhacks Logo, name: vanhacksLogo, widget: image}
-          - {label: Vanhacks Slogan, name: vanhacksSlogan, widget: image}
-          - {label: Button Title, name: buttonTitle, widget: string}
+          - {label: Header, name: header, widget: object,
+            fields: [
+              {
+                label: Image,
+                name: image,
+                widget: image,
+              },
+              {
+                label: Date,
+                name: date,
+                widget: string,,
+              },
+              {
+                label: Button Title,
+                name: buttonTitle,
+                widget: string,
+              }
+            ]}
           - {label: Hacking and Caring with, name: collaborators, widget: list, 
             fields: [
                   {

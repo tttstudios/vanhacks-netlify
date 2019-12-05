@@ -1,17 +1,14 @@
+import CMS from 'netlify-cms-app'
 import React from 'react'
-import Home from '../../pages/index'
+import Home from '../pages'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
     const data = entry.getIn(['data']).toJS();
-    console.log(data);
+    console.log('hey');
     if (data) {
         return (
             <Home
-                headerImage={data.headerImage}
-                date={data.date}
-                vanhacksLogo={data.vanhacksLogo}
-                vanhacksSlogan={data.vanhacksSlogan}
-                buttonTitle={data.buttonTitle}
+                header={data.header}
                 collaborators={data.collaborators}
                 about={data.about}
                 groups={data.groups}
@@ -29,3 +26,5 @@ const IndexPagePreview = ({ entry, getAsset }) => {
 }
 
 export default IndexPagePreview
+
+CMS.registerPreviewTemplate('index', IndexPagePreview)

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Hosts({ data }) {
     return (
@@ -23,8 +24,8 @@ export default function Hosts({ data }) {
                                 <ul className="list-inline social-buttons-host">
                                     <li>
                                         <a href={h.socialMediaUrl} target="_blank" rel="noopener noreferrer">
-                                            <i
-                                                className="fa fa-linkedin" />
+                                            {/* <i className="fa fa-linkedin" /> */}
+                                            <FontAwesomeIcon icon={['fa', 'linkedin']}></FontAwesomeIcon>
                                         </a>
                                     </li>
                                 </ul>

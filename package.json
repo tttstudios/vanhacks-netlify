@@ -18,6 +18,9 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/jae3choi/netlify-cms#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
     "@zeit/next-css": "^1.0.1",
     "eslint-config-airbnb": "^18.0.1",
     "next": "^9.1.4",
