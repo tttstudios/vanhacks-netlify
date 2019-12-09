@@ -167,6 +167,162 @@
 
 /* @@@ Header @@@ */
 
+header {
+  background-image: url(/img/header-banner@2x.png);
+  background-attachment: scroll;
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+header .intro-text {
+  padding-top: 155px;
+  padding-bottom: 70px;
+}
+
+
+.vanhacks-intro {
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+.social-good {
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+header .intro-text .intro-heading {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: 0.45px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+header .intro-text .intro-lead-in {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  header .intro-text .intro-lead-in {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    letter-spacing: 7px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+}
+
+/* @@@ About @@@ */
+
+.about-image {
+  height: 450px;
+  width: auto;
+}
+
+.about-subheader-for-images {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.about-text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.about-text-mobile {
+  display: none;
+}
+
+.about-paragraph {
+  margin-bottom: 20px;
+}
+
+.about-row {
+  margin-bottom: 50px;
+}
+
+.about-image-left {
+  float: right;
+}
+
+.about-button-container {
+  margin-top: 60px;
+}
+
+@media (max-width: 1500px) {
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-text-mobile {
+    display: block;
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  .about-text-left {
+    display: none;
+  }
+
+  .about-text-right {
+    display: none;
+  }
+
+  .about-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-row {
+    margin-top: 40px;
+  }
+
+  .about-button-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-img-left {
+    margin-right: 0;
+  }
+
+  .about-img-right {
+    margin-left: 0;
+  }
+}
+
 .text-sponsor-small {
   margin: 25px;
   font-family: "Lato", sans-serif;
@@ -508,44 +664,6 @@ h3.section-subheading-sponsor {
   }
 }
 
-.about-image {
-  height: 450px;
-  width: auto;
-}
-
-.about-subheader-for-images {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 40px;
-}
-
-.about-text {
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  color: #000000;
-}
-
-.about-text-mobile {
-  display: none;
-}
-
-.about-row {
-  margin-top: 110px;
-}
-
-.about-image-left {
-  float: right;
-}
-
-.about-button-container {
-  margin-top: 60px;
-}
-
 .entry-section {
   margin-top: 80px;
 }
@@ -653,44 +771,7 @@ h3.section-subheading-sponsor {
   padding-right: 0;
 }
 
-@media (max-width: 1500px) {
-  .about-image {
-    width: 100%;
-    height: auto;
-  }
-}
-
 @media (max-width: 992px) {
-  .about-text-mobile {
-    display: block;
-    text-align: left;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-  }
-
-  .about-text-left {
-    display: none;
-  }
-
-  .about-text-right {
-    display: none;
-  }
-
-  .about-image {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .about-row {
-    margin-top: 40px;
-  }
-
-  .about-button-container {
-    display: flex;
-    justify-content: center;
-  }
-
   .rules-row {
     margin-left: 40px;
     margin-right: 40px;
@@ -963,16 +1044,6 @@ h6 {
 
 .img-centered {
   margin: 0 auto;
-}
-
-@media (min-width: 992px) {
-  .about-img-left {
-    margin-right: 0;
-  }
-
-  .about-img-right {
-    margin-left: 0;
-  }
 }
 
 .bcit-logo {
@@ -1713,23 +1784,6 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 
-header {
-  background-image: url(/img/header-banner@2x.png);
-  background-attachment: scroll;
-  background-position: center bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: #fff;
-}
-
-header .intro-text {
-  padding-top: 155px;
-  padding-bottom: 70px;
-}
-
 .hootslack {
   display: block;
   width: 250px;
@@ -1737,40 +1791,6 @@ header .intro-text {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 25px;
-}
-
-.vanhacks-intro {
-  margin: 0 auto;
-  width: 70%;
-  height: auto;
-  padding-bottom: 25px;
-}
-
-.social-good {
-  margin: 0 auto;
-  width: 40%;
-  height: auto;
-  padding-bottom: 80px;
-}
-
-header .intro-text .intro-heading {
-  font-family: "Lato", sans-serif;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: normal;
-  letter-spacing: 0.45px;
-  margin-bottom: 40px;
-  margin-top: 10px;
-}
-
-header .intro-text .intro-lead-in {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  letter-spacing: 4px;
-  font-size: 30px;
-  line-height: 40px;
-  margin-bottom: 25px;
 }
 
 .tickets-button {
@@ -1815,17 +1835,6 @@ header .intro-text .intro-lead-in {
 
 .why-rules p {
   font-size: 16px;
-}
-
-@media (min-width: 768px) {
-  header .intro-text .intro-lead-in {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    letter-spacing: 7px;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
 }
 
 section {

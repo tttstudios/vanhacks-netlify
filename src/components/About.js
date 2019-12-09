@@ -10,7 +10,7 @@ export default function About({ data }) {
                     </div>
                 </div>
 
-                <div className="row" style={{ marginBottom: '50px' }}>
+                <div className="row about-row">
                     <div className="col-md-6">
                         <div className="about-text about-text-left">
                             {data.description.map((paragraph, index) => {
@@ -22,7 +22,7 @@ export default function About({ data }) {
 
                         <div className="about-text about-text-mobile">
                             {data.description.map((paragraph, index) => {
-                                return (<div key={index} style={{ marginBottom: '20px' }}>
+                                return (<div key={index} className="about-paragraph">
                                     {paragraph.p}
                                 </div>)
                             })}
