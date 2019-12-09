@@ -900,6 +900,10 @@ h3.section-subheading-sponsor {
   margin-right: auto;
 }
 
+.social-media-icon {
+  width: 23px
+}
+
 @media (min-width: 768px) {
   .img-host {
     width: 136px;

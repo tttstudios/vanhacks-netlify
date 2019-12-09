@@ -18,7 +18,6 @@ import Contact from '../components/Contact';
 import '../components/css/bootstrap.min.css';
 import '../components/css/agency.css';
 import '../components/css/animate.min.css';
-import '../components/font-awesome/css/font-awesome.min.css';
 
 
 const ConsoleLog = ({ children }) => {

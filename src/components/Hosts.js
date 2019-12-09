@@ -24,8 +24,7 @@ export default function Hosts({ data }) {
                                 <ul className="list-inline social-buttons-host">
                                     <li>
                                         <a href={h.socialMediaUrl} target="_blank" rel="noopener noreferrer">
-                                            {/* <i className="fa fa-linkedin" /> */}
-                                            <FontAwesomeIcon icon={['fa', 'linkedin']}></FontAwesomeIcon>
+                                            <img className="social-media-icon" src="/img/iconSocialColourLinkedin@2x.png" alt="Linkedin icon" />
                                         </a>
                                     </li>
                                 </ul>
