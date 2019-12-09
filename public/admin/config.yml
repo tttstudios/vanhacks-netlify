@@ -54,8 +54,7 @@ collections:
           - {
             label: Header,
             name: header,
-            widget: list,
-            allow_add: false,
+            widget: object,
             fields: [
               {label: Image, name: image, widget: image},
               {label: Date, name: date, widget: string},
