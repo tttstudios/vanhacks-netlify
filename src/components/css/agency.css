@@ -879,6 +879,55 @@ h3.section-subheading-sponsor {
   }
 }
 
+/* @@@ Hosts @@@ */
+
+.img-host {
+  width: 150px;
+  height: 150px;
+}
+
+.img-host-bg {
+  background-size: cover !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .img-mentor {
+    width: 150px;
+    height: 150px;
+    border: 7px solid #fff;
+  }
+
+  .img-host {
+    width: 136px;
+    height: 136px;
+  }
+}
+
+ul.social-buttons-host li a {
+  display: block;
+  background-color: transparent;
+  border-radius: 100%;
+  height: 18px;
+  width: 18px;
+  font-size: 22px;
+  color: #0071a1;
+  outline: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+ul.social-buttons-host li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  color: #007fff;
+  /* which color to change on hover??? */
+}
+
+/* @@@ Mentors @@@ */
+
 .copyright-container {
   margin-top: 25px;
 }
@@ -1462,69 +1511,6 @@ h6 {
   width: 200px;
   height: 200px;
   border: 7px solid #fff;
-}
-
-.img-host {
-  width: 150px;
-  height: 150px;
-}
-
-.img-host-bg {
-  background-size: cover !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-host-paul {
-  background: url("../img/presenters/2019/pauline-lee@2x.png");
-}
-
-.img-host-vivian {
-  background: url("../img/presenters/2019/vivian@2x.png");
-}
-
-.img-host-alexandra {
-  background: url("../img/presenters/2019/alexandra-gunn@2x.png");
-}
-
-.img-host-chris {
-  background: url("../img/presenters/2019/chris-hobbs@2x.png");
-}
-
-.img-host-alexandra {
-  background: url("../img/presenters/2019/alexandra-gunn@2x.png");
-}
-
-.img-host-katty {
-  background: url("../img/presenters/2019/katty-wang@2x.png");
-}
-
-.img-host-yan {
-  background: url("../img/presenters/2019/yan-gao@2x.png");
-}
-
-.img-host-pranay {
-  background: url("../img/presenters/2019/pranay.png")
-}
-
-@media (min-width: 768px) {
-  .img-mentor {
-    width: 150px;
-    height: 150px;
-    border: 7px solid #fff;
-  }
-
-  .img-host {
-    width: 136px;
-    height: 136px;
-  }
-}
-
-@media (min-width: 992px) {
-  .host-container-padding {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
 }
 
 h4.mentor {
@@ -2428,27 +2414,6 @@ ul.social-buttons-about li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-ul.social-buttons-host li a {
-  display: block;
-  background-color: transparent;
-  border-radius: 100%;
-  height: 18px;
-  width: 18px;
-  font-size: 22px;
-  color: #0071a1;
-  outline: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-ul.social-buttons-host li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-  color: #007fff;
-  /* which color to change on hover??? */
 }
 
 h4.subheading a:hover,
