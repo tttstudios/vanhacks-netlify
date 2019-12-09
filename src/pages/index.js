@@ -2,6 +2,8 @@ import Head from 'next/head';
 import { Component } from 'react';
 import { attributes, react as HomeContent } from './index.md';
 import Header from '../components/Header';
+import TicketPurchase from '../components/TicketPurchase';
+import Collaborators from '../components/Collaborators';
 import Layout from '../components/Layout';
 import About from '../components/About';
 import Groups from '../components/Groups';
@@ -17,6 +19,7 @@ import '../components/css/bootstrap.min.css';
 import '../components/css/agency.css';
 import '../components/css/animate.min.css';
 import '../components/font-awesome/css/font-awesome.min.css';
+
 
 const ConsoleLog = ({ children }) => {
     console.log(children);
@@ -80,35 +83,15 @@ export default class Home extends Component {
 
                     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
                 </Head>
+
                 <body id="page-top" className="index">
                     <HomeContent />
                     <Layout>
                         <Header data={header} />
 
-                        {/* <!-- Ticket purchasing section--> */}
-                        <section id="ticket-purchasing-section" style={{ display: 'none' }}>
-                            <div className="container">
-                                <div className="col-lg-12">
-                                    <iframe src="https://events.amanda-ai.com/e/1/embed" frameBorder="0" style={{ overflow: 'hidden', width: '100%', minHeight: '350px' }} />
-                                </div>
-                            </div>
-                        </section>
+                        <TicketPurchase />
 
-                        <div className="container">
-                            <p className="about-subheader-for-images">
-                                Hacking and caring with
-                            </p>
-                            <div className="row">
-                                <div className="text-center">
-                                    {collaborators.map((c, index) => (
-                                        <a key={index} href={c.href} target="_blank">
-                                            <img className="img-sponsor-small about-img-left"
-                                                src={c.image} alt={c.alt} />
-                                        </a>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
+                        <Collaborators data={collaborators} />
 
                         <About data={about} />
                         <div className="section-divider" />
@@ -136,9 +119,6 @@ export default class Home extends Component {
 
                         <Contact />
                     </Layout>
-
-                    {/* <!-- jQuery --> */}
-                    <script src="/js/jquery.js" />
 
                     {/* <!-- Bootstrap Core JavaScript --> */}
                     <script src="/js/bootstrap.min.js" />
