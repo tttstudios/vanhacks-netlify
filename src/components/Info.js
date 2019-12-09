@@ -72,5 +72,23 @@ Info.defaultProps = {
 };
 
 Info.propTypes = {
-    data: PropTypes.object,
+    data: PropTypes.objectOf(PropTypes.shape({
+        faq: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.shape({
+            firstQ: PropTypes.string,
+            firstAnswerOne: PropTypes.string,
+            firstHref: PropTypes.string,
+            firstAnswerTwo: PropTypes.string,
+            secondQ: PropTypes.string,
+            secondAnswerOne: PropTypes.string,
+            secondHref: PropTypes.string,
+            secondAnswerTwo: PropTypes.string,
+        }))),
+        rules: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.shape({
+            firstRule: PropTypes.string,
+            firstDescription: PropTypes.string,
+            secondRule: PropTypes.string,
+            secondDescription: PropTypes.string,
+        }))),
+        title: PropTypes.string,
+    })),
 };

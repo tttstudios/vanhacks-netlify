@@ -893,12 +893,6 @@ h3.section-subheading-sponsor {
 }
 
 @media (min-width: 768px) {
-  .img-mentor {
-    width: 150px;
-    height: 150px;
-    border: 7px solid #fff;
-  }
-
   .img-host {
     width: 136px;
     height: 136px;
@@ -927,6 +921,176 @@ ul.social-buttons li a:active {
 }
 
 /* @@@ Mentors @@@ */
+
+.img-mentor {
+  width: 200px;
+  height: 200px;
+  border: 7px solid #fff;
+}
+
+h4.mentor {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+h2.mentors-title {
+  font-family: "Lato", sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  color: #e9286d;
+  margin-top: 0;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+p.mentor {
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 1.7;
+  color: black;
+  text-align: center;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+p.mentor-description {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.mentor-signup-button {
+  margin-top: 50px;
+  width: 261px;
+}
+
+.mentor-form-input {
+  margin: auto;
+  margin-bottom: 24px;
+  width: 50%;
+  height: 48px;
+  border-color: black;
+  text-indent: 24px;
+  border-width: 1px;
+}
+
+.mentor-hide {
+  display: none;
+}
+
+.mentor-bot-trap {
+  position: absolute;
+  left: -5000px;
+}
+
+@media (min-width: 768px) {
+  .img-mentor {
+    width: 150px;
+    height: 150px;
+    border: 7px solid #fff;
+  }
+
+  .mentor-form-input {
+    margin: auto;
+    margin-bottom: 24px;
+    width: 80%;
+    height: 48px;
+    border-color: black;
+    text-indent: 24px;
+    border-width: 1px;
+  }
+
+  p.mentor {
+    text-align: left;
+  }
+}
+
+/* @@@ Info & Rules @@@ */
+
+.info-padding {
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+
+.rules-subheader {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #dfb600;
+}
+
+h4.rules {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+
+  margin-top: 25px;
+}
+
+p.rules {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color: #1e1e1e;
+}
+
+p.rules a {
+  color: #e05184;
+}
+
+@media (min-width: 992px) {
+  .info-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .rules-row {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rules-row {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .rules-subheader {
+    margin-left: 50px;
+  }
+
+  h4.rules {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 5px;
+
+    margin-left: 50px;
+  }
+
+  p.rules {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    color: #1e1e1e;
+    margin-left: 50px;
+  }
+}
+
 
 .copyright-container {
   margin-top: 25px;
@@ -1123,21 +1287,6 @@ h2.contact-us-section-header {
 
   text-align: left;
   padding-right: 0;
-}
-
-@media (max-width: 992px) {
-  .rules-row {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-}
-
-@media (max-width: 768px) {
-  .rules-row {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 section h3.section-subheading-why-first {
@@ -1507,77 +1656,6 @@ h6 {
   }
 }
 
-.img-mentor {
-  width: 200px;
-  height: 200px;
-  border: 7px solid #fff;
-}
-
-h4.mentor {
-  font-size: 18px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 3px;
-}
-
-h2.mentors-title {
-  font-family: "Lato", sans-serif;
-  font-size: 72px;
-  font-weight: 900;
-  color: #e9286d;
-  margin-top: 0;
-  padding-bottom: 3px;
-  text-align: center;
-}
-
-p.mentor {
-  font-size: 13px;
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  line-height: 1.7;
-  color: black;
-  text-align: center;
-  padding-right: 15px;
-  display: inline-block;
-}
-
-p.mentor-description {
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  color: #4a4a4a;
-}
-
-.mentor-signup-button {
-  margin-top: 50px;
-  width: 261px;
-}
-
-.mentor-form-input {
-  margin: auto;
-  margin-bottom: 24px;
-  width: 50%;
-  height: 48px;
-  border-color: black;
-  text-indent: 24px;
-  border-width: 1px;
-}
-
-@media (min-width: 768px) {
-  .mentor-form-input {
-    margin: auto;
-    margin-bottom: 24px;
-    width: 80%;
-    height: 48px;
-    border-color: black;
-    text-indent: 24px;
-    border-width: 1px;
-  }
-
-  p.mentor {
-    text-align: left;
-  }
-}
-
 /* change placeholder color */
 
 ::-webkit-input-placeholder {
@@ -1888,57 +1966,6 @@ section h3.section-subheading {
   margin: 25px 20px 35px 20px;
 }
 
-.info-padding {
-  padding-left: 13%;
-  padding-right: 13%;
-}
-
-@media (min-width: 992px) {
-  .info-padding {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.rules-subheader {
-  font-family: "Lato", sans-serif;
-  font-size: 36px;
-  font-weight: 900;
-  color: #dfb600;
-}
-
-h4.rules {
-  /* font-size: 14px;
-    text-transform: none;
-    line-height: 200%;
-    font-weight: 600;
-    margin: 40px 15px 5px 15px; */
-
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: black;
-
-  margin-top: 25px;
-}
-
-p.rules {
-  /* color: #777;
-    text-transform: none;
-    line-height: 200%;
-    font-weight: 400;
-    margin: 0px 15px 5px 15px; */
-
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  line-height: 2;
-  color: #1e1e1e;
-}
-
-p.rules a {
-  color: #e05184;
-}
-
 @media (min-width: 768px) {
   section h3.section-subheading {
     font-size: 16px;
@@ -1947,45 +1974,6 @@ p.rules a {
     line-height: 200%;
     font-weight: 500;
     margin: 35px 85px 45px 85px;
-  }
-
-  .rules-subheader {
-    margin-left: 50px;
-  }
-
-  h4.rules {
-    /* font-size: 14px;
-        font-family: 'Lato', sans-serif;
-        text-transform: none;
-        line-height: 200%;
-        font-weight: 600;
-        margin-top: 35px;
-        margin-bottom: 5px; */
-
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    text-transform: none;
-    font-weight: bold;
-    color: black;
-    margin-top: 35px;
-    margin-bottom: 5px;
-
-    margin-left: 50px;
-  }
-
-  p.rules {
-    /* color: #777;
-        text-transform: none;
-        line-height: 200%;
-        font-weight: 400;
-        margin-left: 100px;
-        margin-right: 100px; */
-
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    line-height: 2;
-    color: #1e1e1e;
-    margin-left: 50px;
   }
 }
 

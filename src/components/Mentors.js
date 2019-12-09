@@ -31,7 +31,7 @@ export default function Mentors() {
                                     <input type="text" defaultValue="" name="EXPERTISE" className="required mentor-form-input"
                                         id="mce-EXPERTISE" placeholder="Area of Expertise" required />
                                 </div>
-                                <div style={{ display: 'none' }} className="mc-field-group input-group">
+                                <div className="mc-field-group input-group mentor-hide">
                                     <strong>Mentor?</strong>
                                     <ul>
                                         <li>
@@ -42,15 +42,14 @@ export default function Mentors() {
                                     </ul>
                                 </div>
                                 <div id="mce-responses" className="clear">
-                                    <div className="response" id="mce-error-response" style={{ display: 'none' }}></div>
-                                    <div className="response" id="mce-success-response" style={{ display: 'none' }}></div>
+                                    <div className="response" id="mce-error-response mentor-hide"></div>
+                                    <div className="response" id="mce-success-response mentor-hide"></div>
                                 </div>
                                 {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
-                                <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true"><input type="text"
+                                <div className="mentor-bot-trap" aria-hidden="true"><input type="text"
                                     name="b_5907e3e94aaabdaf3a29b7f4c_bf87b78c48" tabIndex="-1" defaultValue="" /></div>
                                 <div className="clear"><input type="submit" defaultValue="Sign up" name="signup"
-                                    id="mc-embedded-subscribe" className="button-yellow contact-email-button"
-                                    style={{ border: 'none' }} /></div>
+                                    id="mc-embedded-subscribe" className="button-yellow contact-email-button mentor-hide" /></div>
                             </div>
                         </form>
                     </div>
