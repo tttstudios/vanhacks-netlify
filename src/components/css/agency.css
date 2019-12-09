@@ -1,21 +1,171 @@
+/* @@@ NavBar @@@ */
+
 @media (min-width: 768px) and (max-width: 1200px) {
   .navbar-collapse.collapse {
-    display: none !important;
+      display: none !important;
   }
 
   .navbar-collapse.collapse.in {
-    display: block !important;
+      display: block !important;
   }
 
   .navbar-header .collapse,
   .navbar-toggle {
-    display: block !important;
+      display: block !important;
   }
 
   .navbar-header {
-    float: none;
+      float: none;
   }
 }
+
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  background-image: url(/img/logos/vanhacks_logo_colour@1x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 151px;
+  height: auto;
+}
+
+
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e05184;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+
+.navbar-default .nav li a {
+  color: #e05184;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.navbar-default .nav li a:hover {
+  color: #f2528b;
+  border-bottom: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.navbar-default .nav li a:focus {
+  color: rgba(235, 235, 235, 0.9);
+  outline: 0;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  border-radius: 0px;
+  color: #ffffff;
+  background-color: #e05184;
+}
+
+.navbar-default.navbar-shrink .nav li a:hover {
+  color: #f2528b;
+  border-bottom: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #f2528b;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: 0;
+  }
+
+  .navbar-default .navbar-brand {
+    background-image: url(/img/logos/vanhacks_logo_white@2x.png);
+    background-size: contain;
+    margin-top: 9px;
+    width: 151px;
+    height: auto;
+  }
+
+  .navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .navbar-default .nav li a:hover {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .navbar-default .nav li a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .navbar-default.navbar-shrink {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+
+  .navbar-default.navbar-shrink .nav li a {
+    color: #e05184;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: right;
+  }
+
+  .navbar-default.navbar-shrink .navbar-nav>.active>a {
+    background-color: #ffffff;
+    color: #e05184;
+    border-bottom: 3px solid #e05184;
+    border-radius: 0;
+  }
+
+  .navbar-default.navbar-shrink .nav li a:hover {
+    color: #f2528b;
+    border-bottom: 3px solid #ffffff;
+    background: #ffffff;
+    border-radius: 0;
+    font-weight: 600;
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand {
+    background-image: url(/img/logos/vanhacks_logo_colour@2x.png);
+    background-size: contain;
+    margin-top: 9px;
+    width: 151px;
+    height: auto;
+  }
+}
+
+/* @@@ Header @@@ */
 
 .text-sponsor-small {
   margin: 25px;
@@ -1553,21 +1703,6 @@ fieldset[disabled] .btn-xl.active {
   background-color: #fff;
 }
 
-.navbar-default {
-  background-color: #fff;
-  border-color: transparent;
-}
-
-.navbar-default .navbar-brand {
-  background-image: url(/img/logos/vanhacks_logo_colour@1x.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 15px;
-  margin-left: 15px;
-  width: 151px;
-  height: auto;
-}
-
 /* iframe {
   height: 100px;
 } */
@@ -1575,136 +1710,6 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   iframe {
     height: 500px;
-  }
-}
-
-.navbar-default .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
-}
-
-.navbar-default .navbar-toggle {
-  background-color: #fff;
-  border-color: #fff;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #e05184;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-
-.navbar-default .nav li a {
-  color: #e05184;
-  font-size: 14px;
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.navbar-default .nav li a:hover {
-  color: #f2528b;
-  border-bottom: none;
-  background-color: transparent;
-  border-radius: 0;
-}
-
-.navbar-default .nav li a:focus {
-  color: rgba(235, 235, 235, 0.9);
-  outline: 0;
-}
-
-.navbar-default .navbar-nav>.active>a {
-  border-radius: 0px;
-  color: #ffffff;
-  background-color: #e05184;
-}
-
-.navbar-default.navbar-shrink .nav li a:hover {
-  color: #f2528b;
-  border-bottom: none;
-  background-color: transparent;
-  border-radius: 0;
-}
-
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-  color: #f2528b;
-  background-color: transparent;
-}
-
-@media (min-width: 768px) {
-  .navbar-default {
-    background-color: transparent;
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-    border: 0;
-  }
-
-  .navbar-default .navbar-brand {
-    background-image: url(/img/logos/vanhacks_logo_white@2x.png);
-    background-size: contain;
-    margin-top: 9px;
-    width: 151px;
-    height: auto;
-  }
-
-  .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    background-color: transparent;
-  }
-
-  .navbar-default .nav li a:hover {
-    color: #ffffff;
-    font-weight: 600;
-  }
-
-  .navbar-default .nav li a {
-    color: rgba(255, 255, 255, 1);
-    font-size: 14px;
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-  }
-
-  .navbar-default.navbar-shrink {
-    background-color: #ffffff;
-    padding: 10px;
-  }
-
-  .navbar-default.navbar-shrink .nav li a {
-    color: #e05184;
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    text-align: right;
-  }
-
-  .navbar-default.navbar-shrink .navbar-nav>.active>a {
-    background-color: #ffffff;
-    color: #e05184;
-    border-bottom: 3px solid #e05184;
-    border-radius: 0;
-  }
-
-  .navbar-default.navbar-shrink .nav li a:hover {
-    color: #f2528b;
-    border-bottom: 3px solid #ffffff;
-    background: #ffffff;
-    border-radius: 0;
-    font-weight: 600;
-  }
-
-  .navbar-default.navbar-shrink .navbar-brand {
-    background-image: url(/img/logos/vanhacks_logo_colour@2x.png);
-    background-size: contain;
-    margin-top: 9px;
-    width: 151px;
-    height: auto;
   }
 }
 

@@ -144,7 +144,6 @@ export default class Home extends Component {
                     <script src="/js/bootstrap.min.js" />
 
                     {/* <!-- Contact Form JavaScript --> */}
-                    <script src="/js/jqBootstrapValidation.js" />
                     <script src="/js/contact_me.js" />
 
                     {/* <!-- Index.js file--> */}
