@@ -120,6 +120,8 @@ export default class Home extends Component {
                         <Contact />
                     </Layout>
 
+                    <script src="/js/jquery.js" />
+
                     {/* <!-- Bootstrap Core JavaScript --> */}
                     <script src="/js/bootstrap.min.js" />
 
