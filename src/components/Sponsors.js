@@ -32,7 +32,7 @@ export default function Sponsors({ data }) {
                         <div className="col-md-12">
                             <div className="section-subheading-sponsors">Event Sponsors
                         </div>
-                            <div className="container" stly="true">
+                            <div className="container">
                                 <div className="row gold-row d-flex wrap jc-center">
 
                                     {data.eventSponsors.map((s, index) => {
