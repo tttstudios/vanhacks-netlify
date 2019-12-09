@@ -13,15 +13,6 @@ import Mentors from '../components/Mentors';
 import Info from '../components/Info';
 import Contact from '../components/Contact';
 
-// import '../../public/js/jquery';
-// import '../../public/js/bootstrap.min';
-// import '../../public/js/classie';
-// import '../../public/js/cbpAnimatedHeader';
-// import '../../public/js/jqBootstrapValidation';
-// import '../../public/js/contact_me';
-// import '../../public/js/index';
-// import '../../public/js/agency';
-
 import '../components/css/bootstrap.min.css';
 import '../components/css/agency.css';
 import '../components/css/animate.min.css';
@@ -35,11 +26,9 @@ const ConsoleLog = ({ children }) => {
 export default class Home extends Component {
     render() {
         const {
-            headerImage,
-            date,
-            vanhacksLogo,
-            vanhacksSlogan,
-            buttonTitle,
+            facebook,
+            twitter,
+            header,
             collaborators,
             about,
             groups,
@@ -70,17 +59,6 @@ export default class Home extends Component {
 
                     <title>VanHacks 2019 - Vancouver's Hackathon for Social Good</title>
 
-                    {/* Bootstrap Core CSS */}
-                    {/* <link href="./css/bootstrap.min.css" rel="stylesheet" /> */}
-
-                    {/* Custom CSS */}
-                    {/* <link href="./css/agency.css?v=1.0.20" rel="stylesheet" /> */}
-
-                    {/* Plugin CSS */}
-                    {/* <link rel="stylesheet" href="./css/animate.min.css" type="text/css" /> */}
-
-                    {/* Custom Fonts */}
-                    {/* <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> */}
                     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet" type="text/css" />
                     <link href="http://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
 
@@ -90,22 +68,22 @@ export default class Home extends Component {
                     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" />
                     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" />
                     {/* <![endif]  */}
-                    <meta name="title" property="og:title" content="VanHacks 2019 - Vancouver's Hackathon for Social Good" />
-                    <meta name="image" property="og:image" content="http://www.vanhacks.com/img/social_banner_8%402x.png" />
+                    <meta name="title" property="og:title" content={facebook.ogTitle} />
+                    <meta name="image" property="og:image" content={facebook.ogImage} />
 
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:description"
-                        content="A hackathon to help improve Vancouver's community by solving problems for organizations that do social good." />
-                    <meta name="twitter:title" content="VanHacks 2019 - Vancouver's Hackathon for Social Good" />
+                    <meta name="twitter:card" content={twitter.card} />
+                    <meta name="twitter:description" content={twitter.description} />
+                    <meta name="twitter:title" content={twitter.title} />
                     <meta name="twitter:site" content="@TTT_Studios" />
-                    <meta name="twitter:image" content="http://www.vanhacks.com/img/social_banner_8%402x.png" />
+                    <meta name="twitter:image" content={twitter.image} />
                     <meta name="twitter:creator" content="@TTT_Studios" />
+
                     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
                 </Head>
                 <body id="page-top" className="index">
                     <HomeContent />
                     <Layout>
-                        <Header image={headerImage} />
+                        <Header data={header} />
 
                         {/* <!-- Ticket purchasing section--> */}
                         <section id="ticket-purchasing-section" style={{ display: 'none' }}>

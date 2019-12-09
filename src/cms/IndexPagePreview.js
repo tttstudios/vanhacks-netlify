@@ -1,9 +1,9 @@
 import CMS from 'netlify-cms-app'
 import React from 'react'
-import Home from '../pages'
+import Home from '../pages/index'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
-    const data = entry.getIn(['data']).toJS();
+    // const data = entry.getIn(['data']).toJS();
     console.log('hey');
     if (data) {
         return (

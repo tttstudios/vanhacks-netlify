@@ -15,24 +15,53 @@ collections:
         label: "Landing Page"
         name: "index"
         fields:
-          - {label: Header, name: header, widget: object,
+          - {label: Facebook Meta Data, name: facebook, widget: object,
             fields: [
               {
-                label: Image,
-                name: image,
-                widget: image,
+                label: Title,
+                name: ogTitle,
+                widget: string,
               },
               {
-                label: Date,
-                name: date,
-                widget: string,,
-              },
-              {
-                label: Button Title,
-                name: buttonTitle,
+                label: Image (url of image),
+                name: ogImage,
                 widget: string,
               }
             ]}
+          - {label: Twitter Meta Data, name: twitter, widget: object,
+            fields: [
+              {
+                label: Card,
+                name: card,
+                widget: string,
+              },
+              {
+                label: Description,
+                name: description,
+                widget: string,
+              },
+              {
+                label: Title,
+                name: title,
+                widget: string,
+              },
+              {
+                label: Image (url of image),
+                name: image,
+                widget: string
+              }
+            ]}
+          - {
+            label: Header,
+            name: header,
+            widget: list,
+            allow_add: false,
+            fields: [
+              {label: Image, name: image, widget: image},
+              {label: Date, name: date, widget: string},
+              {label: Button Title, name: buttonTitle, widget: string,}
+            ]
+          }
           - {label: Hacking and Caring with, name: collaborators, widget: list, 
             fields: [
                   {

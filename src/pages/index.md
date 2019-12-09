@@ -1,8 +1,16 @@
 ---
+facebook:
+  ogTitle: VanHacks 2019 - Vancouver's Hackathon for Social Good
+  ogImage: http://www.vanhacks.com/img/social_banner_8%402x.png
+twitter:
+  card: summary_large_image
+  description: A hackathon to help improve Vancouver's community by solving problems for organizations that do social good.
+  title: VanHacks 2019 - Vancouver's Hackathon for Social Good
+  image: http://www.vanhacks.com/img/social_banner_8%402x.png
 header:
-  - image: /img/header-banner@2x.png
-    date: 'September 13-15, 2019'
-    buttonTitle: Get your tickets!
+  image: /img/header-banner@2x.png
+  date: 'September 13-15, 2019'
+  buttonTitle: Get your tickets!
 collaborators:
   - alt: VSW Logo
     href: 'http://vanstartupweek.ca/'
