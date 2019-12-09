@@ -10,7 +10,7 @@ export default function Groups({ data }) {
 
                         <div className="groups-body">
                             {data.description.map((paragraph, index) => (
-                                <div key={index} style={{ marginBottom: '20px' }}>
+                                <div key={index} className="groups-paragraph">
                                     {paragraph.p}
                                 </div>
                             ))}
