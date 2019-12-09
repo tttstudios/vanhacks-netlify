@@ -1015,7 +1015,6 @@ p.mentor-description {
   padding-right: 13%;
 }
 
-
 .rules-subheader {
   font-family: "Lato", sans-serif;
   font-size: 36px;
@@ -1091,10 +1090,8 @@ p.rules a {
   }
 }
 
+/* @@@ Contact @@@ */
 
-.copyright-container {
-  margin-top: 25px;
-}
 
 h2.contact-us-section-header {
   font-family: "Lato", sans-serif;
@@ -1125,6 +1122,21 @@ h2.contact-us-section-header {
   margin-left: 0 !important;
   padding: 10px !important;
 }
+
+section#contact {
+  background: url("/img/footer-image@2x.png");
+  background-size: cover;
+}
+
+section#contact .section-heading {
+  color: #ffffff;
+}
+
+.copyright-container {
+  margin-top: 25px;
+}
+
+/* @@@ Others @@@ */
 
 .subscribe-button {
   width: 165px;
@@ -2322,15 +2334,6 @@ aside.clients img {
 }
 
 .fa-envelope-o {
-  color: #ffffff;
-}
-
-section#contact {
-  background: url("/img/footer-image@2x.png");
-  background-size: cover;
-}
-
-section#contact .section-heading {
   color: #ffffff;
 }
 
