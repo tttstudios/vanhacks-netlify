@@ -3,7 +3,7 @@ backend:
   repo: jae3choi/netlify-cms
   branch: master
   auth_type: implicit
-  app_id: HvcJ7A5tegBJSW6vfQ
+  app_id: AgZdfGZrD7kQMZJQMd
 media_folder: public/img
 public_folder: img
 
