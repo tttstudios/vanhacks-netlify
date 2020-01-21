@@ -2,12 +2,14 @@ import CMS from 'netlify-cms-app'
 import React from 'react'
 import Home from '../pages/index'
 
-const IndexPagePreview = ({ entry, getAsset }) => {
+const IndexPagePreview = ({ entry, widgetsFor }) => {
     // const data = entry.getIn(['data']).toJS();
     console.log('hey');
     if (data) {
         return (
             <Home
+                facebook={data.facebook}
+                twitter={data.twitter}
                 header={data.header}
                 collaborators={data.collaborators}
                 about={data.about}
@@ -28,6 +30,3 @@ const IndexPagePreview = ({ entry, getAsset }) => {
 export default IndexPagePreview
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
-CMS.registerPreviewStyle('../components/css/agency.css');
-CMS.registerPreviewStyle('../components/css/animate.min.css');
-CMS.registerPreviewStyle('../components/css/bootstrap.css');
