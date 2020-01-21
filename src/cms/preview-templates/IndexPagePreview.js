@@ -1,6 +1,6 @@
 import CMS from 'netlify-cms-app'
 import React from 'react'
-import Home from '../pages/index'
+import Home from '../../pages/index'
 
 const IndexPagePreview = ({ entry, widgetsFor }) => {
     const data = entry.getIn(['data']).toJS();
@@ -29,5 +29,3 @@ const IndexPagePreview = ({ entry, widgetsFor }) => {
 }
 
 export default IndexPagePreview
-
-CMS.registerPreviewTemplate('index', IndexPagePreview)
