@@ -2,12 +2,17 @@ import CMS from 'netlify-cms-app'
 import React from 'react'
 import Home from '../../pages/index'
 
+const ConsoleLog = ({ children }) => {
+    console.log(children);
+    return false;
+};
+
 const IndexPagePreview = ({ entry, getAssets }) => {
     const data = entry.getIn(['data']).toJS();
 
-    console.log('hey');
     if (data) {
         return (
+            <ConsoleLog>HEY</ConsoleLog>
             <Home
                 facebook={data.facebook}
                 twitter={data.twitter}
