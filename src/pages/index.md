@@ -358,6 +358,90 @@ info:
         production assets for each entry must be created during the VanHacks
         event.
       secondRule: How long is it?
+    - firstDescription: >-
+        Participants are expected to bring the necessary hardware and software
+        tools to build their competition entry. Teams are permitted to use open
+        source tools and/or code.
+      firstRule: Languages & tools
+      secondDescription: >+
+        All solutions must be developed during the course of VanHacks.
+        Development occurs between the start and end times of the hack.
+        Participants may consult remote resources via mobile phone, VoIP, chat,
+        etc., to answer technical questions, but remote resources (such as
+        outside people sending code) are not allowed to develop or produce
+        assets used in competition entries.
+
+      secondRule: No outside development
+    - firstDescription: >+
+        To ensure a level playing field for all contestants, all code, design,
+        art, music, SFX, and assets must be created during the duration of
+        VanHacks. We want to ensure that all participants start off on the same
+        footing and preserve the true nature of a hackathon. You are, however,
+        free to make plans, create wireframes, and brainstorm prior to the
+        event.
+
+      firstRule: 'Code, design, SFX, music'
+      secondDescription: >+
+        VanHacks is dedicated to providing a harassment-free experience for
+        everyone, regardless of gender, gender identity and expression, age,
+        sexual orientation, disability, physical appearance, body size, race,
+        ethnicity, nationality, religion, previous hackathon attendance or
+        computing experience (or lack of any of the aforementioned). We do not
+        tolerate harassment of VanHacks participants in any form. Sexual
+        language and imagery is not appropriate at VanHacks. VanHacks
+        participants violating these rules may be sanctioned or expelled from
+        the hackathon without a refund at the discretion of VanHacks organizers.
+
+      secondRule: Code of conduct
+    - firstDescription: >+
+        Ownership of the solution created by participants for VanHacks is owned
+        by the participants and the not-for-profit institution they hacked for.
+        TTT Studios, VSW & Sponsors do NOT have any rights to code created
+        during VanHacks.
+
+      firstRule: Ownership
+      secondDescription: >+
+        VanHacks judges will award 5 points to each project that is licensed as
+        open source. This is done in the spirit of "Act Local, Think Global..."
+        where as a local organization such as the Vancouver Food Bank may have
+        similar challenges as the Calgary Food Bank. By open sourcing the
+        projects we extend the usefulness of the code to the rest of the world.
+
+      secondRule: Open source
+    - firstDescription: >+
+        A judging panel of community personalities from a range of industries
+        will score competitors on innovation, design, quality and impact. Teams
+        will have a maximum of 3 minutes to present and demonstrate their
+        prototype to the judging panel. The winning team will be announced
+        on-site at 5:00 PM on September 15th. A maximum one entry per team may
+        be submitted. Event hosts are not responsible for any dispute regarding
+        prize dispersal or use.
+
+      firstRule: Judging
+      secondDescription: >+
+        By participating as a competitor in VanHacks, participants grant
+        organizers and participating members of the media rights to publicly
+        disclose competition event information, review and describe applications
+        developed and presented during the event, and rights to display event-
+        related photos, screen shots, and links to publicly available
+        demonstrations of contest entries. Participants may be photographed
+        and/or videotaped during the Hackathon event. Participants agree that
+        the VanHacks hosts and sponsors may use any photographs or videos
+        obtained in this manner for promotional purposes, during or after the
+        hackathon, in any media.
+
+      secondRule: Press release
+    - firstDescription: >+
+        Functional demos of the solution must be done live and not through a
+        powerpoint or prototype presentation.
+
+      firstRule: Demos
+      secondDescription: >+
+        VanHacks reserves the right to make rule modifications prior to the
+        start of the event. By participating each team member agrees to abide by
+        these Official Rules.
+
+      secondRule: Rule changes
   title: Info
 ---
 
