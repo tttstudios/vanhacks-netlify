@@ -1,9 +1,6 @@
 backend:
-  name: bitbucket
-  repo: jae3choi/netlify-cms
-  branch: master
-  auth_type: implicit
-  app_id: AgZdfGZrD7kQMZJQMd
+  name: git-gateway
+
 media_folder: public/img
 public_folder: img
 

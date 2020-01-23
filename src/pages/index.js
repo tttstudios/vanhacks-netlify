@@ -19,12 +19,6 @@ import '../components/css/bootstrap.min.css';
 import '../components/css/agency.css';
 import '../components/css/animate.min.css';
 
-
-const ConsoleLog = ({ children }) => {
-    console.log(children);
-    return false;
-};
-
 export default class Home extends Component {
     render() {
         const {
