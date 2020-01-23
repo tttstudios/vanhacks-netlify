@@ -304,6 +304,22 @@ hosts:
     fullName: Chris Hobbs
     host: img/presenters/2019/chris-hobbs@2x.png
     socialMediaUrl: 'http://ca.linkedin.com/in/chobbs'
+  - description: Host
+    fullName: Pauline Lee
+    host: /img/pauline-lee-2x.png
+    socialMediaUrl: 'https://www.linkedin.com/in/leepauline89/'
+  - description: Host
+    fullName: Katty Wang
+    host: /img/katty-wang-2x.png
+    socialMediaUrl: 'https://www.linkedin.com/in/kattywang/'
+  - description: Host
+    fullName: Yan Gao
+    host: /img/yan-gao-2x.png
+    socialMediaUrl: 'https://www.linkedin.com/in/yangao009/'
+  - description: Host
+    fullName: Pranay Jain
+    host: /img/pranay.png
+    socialMediaUrl: 'https://www.linkedin.com/in/pranayuk/'
 info:
   faq:
     - firstAnswerOne: >-
