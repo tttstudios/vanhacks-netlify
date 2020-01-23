@@ -1,16 +1,18 @@
 ---
 facebook:
+  ogImage: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
   ogTitle: VanHacks 2019 - Vancouver's Hackathon for Social Good
-  ogImage: http://www.vanhacks.com/img/social_banner_8%402x.png
 twitter:
   card: summary_large_image
-  description: A hackathon to help improve Vancouver's community by solving problems for organizations that do social good.
+  description: >-
+    A hackathon to help improve Vancouver's community by solving problems for
+    organizations that do social good.
+  image: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
   title: VanHacks 2019 - Vancouver's Hackathon for Social Good
-  image: http://www.vanhacks.com/img/social_banner_8%402x.png
 header:
-  image: /img/header-banner@2x.png
-  date: 'September 13-15, 2019'
   buttonTitle: Get your tickets!
+  date: 'September 13-15, 2019'
+  image: /img/header-banner@2x.png
 collaborators:
   - alt: VSW Logo
     href: 'http://vanstartupweek.ca/'
@@ -122,7 +124,6 @@ schedule:
             determined.
           time: '5:00 PM'
           title: Closing Ceremony
-  title: Schedule
 sponsors:
   buttonTitle: Download sponsorship package
   description: >-
@@ -179,22 +180,24 @@ sponsors:
       url: 'https://www.radical.io/'
   foundingSponsors:
     - alt: VSW Logo
+      description: >-
+        Vancouver Startup Week is a week-long celebration connecting
+        entrepreneurs, investors, leaders, and friends to support our startup
+        community. The city will be teeming with events and networking
+        receptions hosted by some of the biggest names in the startup scene.
+        Last year, VSW brought together more than 2,000 people, to more than 108
+        different events run by dozens of amazing community partners.
       sponsor: img/logos/VSW_logo.jpg
       url: 'http://vanstartupweek.ca/'
-      description:
-        Vancouver Startup Week is a week-long celebration connecting
-        entrepreneurs, investors, leaders, and friends to support our startup community. The city
-        will be teeming with events and networking receptions hosted by some of the biggest names in
-        the startup scene. Last year, VSW brought together more than 2,000 people, to more than 108
-        different events run by dozens of amazing community partners.                
     - alt: TTT studios logo
+      description: >-
+        TTT Studios is an award winning Digital Innovation Studio with a strong
+        belief in being heavily involved in empowering the community. Having
+        built solutions for more than 200 clients around the world, they work
+        with industry leaders and challengers who have ambitious goals and see
+        the value in re-shaping their industries through technology.
       sponsor: img/logos/ttt-logo.png
       url: 'https://ttt.studio'
-      description:
-        TTT Studios is an award winning Digital Innovation Studio with a strong belief in being
-        heavily involved in empowering the community. Having built solutions for more than 200
-        clients around the world, they work with industry leaders and challengers who have ambitious
-        goals and see the value in re-shaping their industries through technology.
   title: Founding Sponsors
 judges:
   - description: >-
@@ -228,6 +231,70 @@ judges:
     fullName: Khurram Virani
     jobTitle: 'Head of Education, Lighthouse Labs'
     judge: img/judges/khurram@2x.png
+  - description: >-
+      As CEO, Jose is TTT’s captain, and strategic leader. Jose brings with him
+      a wealth of experience from a wide range of areas. This includes
+      establishing and managing successful sales teams, and bringing digital
+      products from inception to maturity.
+    fullName: Jose Hernandez
+    jobTitle: 'CEO, TTT Studios'
+    judge: /img/jose-2x.png
+  - description: >-
+      With over 20 years of tech experience as both a developer and an
+      entrepreneur, David possesses the perfect combination of technical
+      expertise and business acumen. He is experienced as a senior-level
+      operations management professional with a proven ability to manage risk,
+      cost, and growth.
+    fullName: David Hobbs
+    jobTitle: 'Founder, TTT Studios'
+    judge: /img/david-2x.png
+  - description: >-
+      Andy is a Mobile Engineer focusing on Android and Flutter. He is
+      self-taught and also a mentor for others. He was part of the winning team
+      at VanHacks 2018, and his latest achievement is being crowned one of
+      Canada's Developer 30 Under 30 winners.
+    fullName: Andy Wong
+    jobTitle: 'Software Engineer, Realtor.com'
+    judge: /img/andy-2x.png
+  - description: >-
+      As the Head of Revenue, Max is focused on identifying and expanding new
+      market opportunities for Grammarly’s product portfolio. Prior to
+      Grammarly, Max co-founded MyDropBox, a plagiarism-detection company, and
+      then served as the Director of Product Strategy at Blackboard Inc. after
+      its acquisition of MyDropBox. Max holds an MBA from Vanderbilt
+      University’s Owen Graduate School of Management and received a bachelor of
+      business administration in management information systems from
+      International Christian University in Kyiv, Ukraine.
+    fullName: Max Lytvyn
+    jobTitle: 'Co-Founder & Head of Revenue, Grammarly'
+    judge: /img/max-2x.png
+  - description: >-
+      As a tech entrepreneur and hackathon enthusiast, Yan led his team to
+      develop an all-in-one hackathon management SaaS platform, HackHub. Over 50
+      large-scale hackathons worldwide are currently using HackHub as their
+      event management tool including VanHacks. Yan also performs as an educator
+      and mentor to teach the latest UI/UX design and software development
+      skills to university students and helps them to land their first job.
+    fullName: Yan Hong
+    jobTitle: HackHub
+    judge: /img/yan-2x.png
+  - description: >-
+      Ross believes that those who can – should, and that success without
+      integrity is a failure. He is passionate about building great products and
+      has solid experience launching successful tech, business & community
+      initiatives. Ross is currently a Product Owner at Mogo transforming the
+      way Canadians manage their finances.
+    fullName: Ross Hailuk
+    jobTitle: 'Product Owner, Mogo'
+    judge: /img/ross-2x.png
+  - description: >-
+      Vivian has been working in the Canadian startup ecosystem for the last 10
+      years. She now runs her own consulting business, working with multiple
+      local organizations and also currently serves as Co-Chair of Vancouver
+      Startup Week.
+    fullName: Vivian Chan
+    jobTitle: 'Co-Chair, Vancouver Startup Week'
+    judge: /img/vivian-2x.png
 hosts:
   - description: Host
     fullName: Vivian Chan
