@@ -325,10 +325,16 @@ info:
     - firstAnswerOne: >-
         To be a participant you need to be either a developer or a UI/UX
         designer.
+      firstHrefText: ''
       firstQ: Do I need to be a developer to attend?
       secondAnswerOne: >-
         No you don't need to be part of a team to register. We will be hosting a
         Friday night social at
+      secondAnswerTwo: >-
+        where team-less participants must attend to meet and form teams. On
+        Saturday morning at 8:00 AM, we will officially register all the teams.
+      secondHrefText: TTT Studios
+      secondHrefUrl: 'https://goo.gl/maps/DC3VfMgern9Vxq3h8'
       secondQ: Do I need a team to register?
     - firstAnswerOne: >-
         Generally, you’ll need to bring your computer, a charger and any other
@@ -336,6 +342,82 @@ info:
         we have you covered but if you want anything in particular there is a
         kitchen to make tea and prepare small bites.
       firstQ: What should I bring?
+    - firstAnswerOne: >+
+        Participants spend 28 hours working in teams of 3-5 people to build an
+        application that will benefit groups from the Vancouver community. It is
+        up to the participants to take the challenges NPOs are facing and find
+        ways to solve them through the applications they build over the weekend.
+        In addition, mentors will be present to guide and advise participants on
+        any difficulties they have when designing or building their
+        applications. At the end of the 28 hours, each team will demo their
+        working application to a panel of judges. The judges will then choose
+        the top three projects.
+
+      firstQ: How does VanHacks work?
+      secondAnswerOne: Yes. Here is the
+      secondAnswerTwo: ''
+      secondHrefText: VanHacks API and SDK Resource Guide
+      secondHrefUrl: Vanhacks Hackathon API and SDK Resources.pdf.
+      secondQ: >-
+        Will there be a resource guide with helpful links to APIs, SDKs and
+        datasets?
+    - firstAnswerOne: >+
+        The closing date for registration is 11:59PM on September 12th 2019 or
+        whenever we reach capacity. Capacity is 125 people.
+
+      firstHrefText: ''
+      firstQ: When is the last day to register for VanHacks?
+      secondAnswerOne: >+
+        Tickets are $36.50 each until September 5th 2019, after that tickets
+        will cost $52.
+
+      secondQ: How much is it to register?
+    - firstAnswerOne: >+
+        At the end of the 28 hours, you should have a working application that
+        can be demoed in front of the judges. Projects will be judged on how
+        well the application solves the chosen problem and how well the solution
+        works at demo time. A list of criteria will be given at the beginning of
+        the hackathon to help keep hackers on track. Extra points are given to
+        those who agree to open source their project after the hackathon.
+
+      firstQ: What are the judging criteria?
+      secondAnswerOne: |+
+        Yes there will be cash prizes. Amounts to be determined.
+
+      secondQ: Will there be prizes?
+    - firstAnswerOne: >+
+        Preferably yes. At the end of the hackathon, you are encouraged to give
+        a copy to the organization or upload it to a repo, like github, for them
+        to download.
+
+      firstQ: >-
+        At the end of VanHacks, do we give our projects to the not-for-profit
+        organisation we choose to hack for?
+      secondAnswerOne: >+
+        If you are coming in solo and want to work with others, our Friday
+        social is a great opportunity to meet other designers and developers and
+        form teams. Our goal is to have everyone on a team by the end of Friday
+        night so we can quickly register the teams on Saturday morning.
+
+      secondQ: How do I find a team?
+    - firstAnswerOne: >+
+        If you do not have a team. Yes. If you do have a team, the Friday social
+        is the only optional part of the weekend. The social will allow you to
+        get more familiar with the not-for-profit organization challenges that
+        need solving. It will also give you a little more time to discuss ideas
+        and best ways to approach your project so you are ready to run on
+        Saturday morning.
+
+      firstQ: Do I have to come Friday?
+      secondAnswerOne: >+
+        Yes, we only allow participants ages 18+. If you are younger and really
+        want to participate, contact us.
+
+      secondQ: Is there an age restriction?
+    - firstAnswerOne: Send us an email
+      firstHrefText: here.
+      firstHrefUrl: 'mailto:chris@ttt.studio'
+      firstQ: I have another question!
   rules:
     - firstDescription: >-
         Online registration ends at 11:59PM on September 12th 2019 or when
