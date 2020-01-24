@@ -38,6 +38,7 @@ about:
   title: About VanHacks
 groups:
   buttonTitle: Find your group
+  buttonUrl: 'https://volunteeringvancouver.ca/nonprofit-organizations/'
   description:
     - p: >-
         At Vanhacks 2019, we are trying something new that allows you hackers to
@@ -126,6 +127,7 @@ schedule:
           title: Closing Ceremony
 sponsors:
   buttonTitle: Download sponsorship package
+  buttonUrl: VanHacks_Sponsorship_2019.pdf
   description: >-
     Interested in getting involved? Get in touch, or download the PDF below to
     learn about sponsorship opportunities.
