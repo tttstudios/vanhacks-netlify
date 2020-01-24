@@ -39,31 +39,31 @@ export default function Info({ data }) {
                                         <p className="rules">
                                             {faq.firstAnswerOne}
                                             {' '}
-                                            {faq.firstHref}
-                                            {' '}
-                                            {faq.firstAnswerTwo}
+                                            <a href=`{faq.firstHrefUrl}`>{faq.firstHrefText}</a>
+                                        {' '}
+                                        {faq.firstAnswerTwo}
                                         </p>
-                                    </div>
+                                </div>
 
-                                    <div className="col-md-6">
-                                        <h4 className="rules">{faq.secondQ}</h4>
-                                        <p className="rules">
-                                            {faq.secondAnswerOne}
-                                            {' '}
-                                            {faq.secondHref}
-                                            {' '}
-                                            {faq.secondAnswerTwo}
+                                <div className="col-md-6">
+                                    <h4 className="rules">{faq.secondQ}</h4>
+                                    <p className="rules">
+                                        {faq.secondAnswerOne}
+                                        {' '}
+                                        <a href=`{faq.secondHrefUrl}`>{faq.secondHrefText}</a>
+                                    {' '}
+                                    {faq.secondAnswerTwo}
                                         </p>
                                     </div>
 
                                 </div>
 
-                            ))}
+                        ))}
                         </div>
-                    </div>
                 </div>
             </div>
-        </section>
+            </div>
+        </section >
     );
 }
 
@@ -76,11 +76,13 @@ Info.propTypes = {
         faq: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.shape({
             firstQ: PropTypes.string,
             firstAnswerOne: PropTypes.string,
-            firstHref: PropTypes.string,
+            firstHrefText: PropTypes.string,
+            firstHrefUrl: PropTypes.string,
             firstAnswerTwo: PropTypes.string,
             secondQ: PropTypes.string,
             secondAnswerOne: PropTypes.string,
-            secondHref: PropTypes.string,
+            secondHrefText: PropTypes.string,
+            secondHrefUrl: PropTypes.string,
             secondAnswerTwo: PropTypes.string,
         }))),
         rules: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.shape({

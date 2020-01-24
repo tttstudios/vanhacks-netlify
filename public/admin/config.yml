@@ -390,8 +390,14 @@ collections:
                     widget: text,
                   },
                   {
-                    label: Hyper Link,
-                    name: firstHref,
+                    label: Hyper Link Text,
+                    name: firstHrefText,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: Hyper Link URL,
+                    name: firstHrefUrl,
                     widget: string,
                     required: false
                   },
@@ -414,8 +420,14 @@ collections:
                     required: false
                   },
                   {
-                    label: Hyper Link,
-                    name: secondHref,
+                    label: Hyper Link Text,
+                    name: secondHrefText,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: Hyper Link URL,
+                    name: secondHrefUrl,
                     widget: string,
                     required: false
                   },
