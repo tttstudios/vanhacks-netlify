@@ -90,7 +90,7 @@ export default function Sponsors({ data }) {
                             {data.description}
                         </p>
 
-                        <a href="VanHacks_Sponsorship_2019.pdf" download="vanhacks_2019_sponsorship_package">
+                        <a href={data.buttonUrl} download="vanhacks_2019_sponsorship_package">
                             <div className="button-yellow sponsorship-download-package-button">{data.buttonTitle}
                             </div>
                         </a>
@@ -109,6 +109,7 @@ Sponsors.propTypes = {
     data: PropTypes.objectOf(PropTypes.shape({
         title: PropTypes.string,
         buttonTitle: PropTypes.string,
+        buttonUrl: PropTypes.string,
         description: PropTypes.string,
         eventSponsors: PropTypes.arrayOf(
             PropTypes.objectOf(PropTypes.shape({

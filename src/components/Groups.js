@@ -16,7 +16,7 @@ export default function Groups({ data }) {
                             ))}
                         </div>
 
-                        <a href="https://volunteeringvancouver.ca/nonprofit-organizations/" target="_blank" rel="noopener noreferrer">
+                        <a href={data.buttonUrl} target="_blank" rel="noopener noreferrer">
                             <div className="button-yellow group-button">
                                 {data.buttonTitle}
                             </div>
@@ -53,6 +53,7 @@ Groups.defaultProps = {
 Groups.propTypes = {
     data: PropTypes.objectOf(PropTypes.shape({
         buttonTitle: PropTypes.string,
+        buttonUrl: PropTypes.string,
         description: PropTypes.arrayOf(
             PropTypes.shape({
                 p: PropTypes.string
