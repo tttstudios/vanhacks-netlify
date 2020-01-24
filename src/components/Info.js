@@ -39,29 +39,29 @@ export default function Info({ data }) {
                                         <p className="rules">
                                             {faq.firstAnswerOne}
                                             {' '}
-                                            <a href=`{faq.firstHrefUrl}`>{faq.firstHrefText}</a>
-                                        {' '}
-                                        {faq.firstAnswerTwo}
+                                            <a href={faq.firstHrefUrl}>{faq.firstHrefText}</a>
+                                            {' '}
+                                            {faq.firstAnswerTwo}
                                         </p>
-                                </div>
+                                    </div>
 
-                                <div className="col-md-6">
-                                    <h4 className="rules">{faq.secondQ}</h4>
-                                    <p className="rules">
-                                        {faq.secondAnswerOne}
-                                        {' '}
-                                        <a href=`{faq.secondHrefUrl}`>{faq.secondHrefText}</a>
-                                    {' '}
-                                    {faq.secondAnswerTwo}
+                                    <div className="col-md-6">
+                                        <h4 className="rules">{faq.secondQ}</h4>
+                                        <p className="rules">
+                                            {faq.secondAnswerOne}
+                                            {' '}
+                                            <a href={faq.secondHrefUrl}>{faq.secondHrefText}</a>
+                                            {' '}
+                                            {faq.secondAnswerTwo}
                                         </p>
                                     </div>
 
                                 </div>
 
-                        ))}
+                            ))}
                         </div>
+                    </div>
                 </div>
-            </div>
             </div>
         </section >
     );
