@@ -356,8 +356,8 @@ info:
       firstQ: How does VanHacks work?
       secondAnswerOne: Yes. Here is the
       secondAnswerTwo: ''
-      secondHrefText: VanHacks API and SDK Resource Guide
-      secondHrefUrl: Vanhacks Hackathon API and SDK Resources.pdf.
+      secondHrefText: VanHacks API and SDK Resource Guide.
+      secondHrefUrl: Vanhacks Hackathon API and SDK Resources.pdf
       secondQ: >-
         Will there be a resource guide with helpful links to APIs, SDKs and
         datasets?
