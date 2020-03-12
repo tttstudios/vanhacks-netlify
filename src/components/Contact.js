@@ -26,7 +26,6 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-
                     <div className="row copyright-container">
                         <div className="copyright">Copyright &copy; VanHacks 2019</div>
                     </div>
