@@ -11,7 +11,7 @@ twitter:
   title: VanHacks 2019 - Vancouver's Hackathon for Social Good
 header:
   buttonTitle: Get your tickets!
-  date: 'September 13-15, 2019'
+  date: 'September 14-15, 2019'
   image: /img/header-banner@2x.png
 collaborators:
   - alt: VSW Logo
