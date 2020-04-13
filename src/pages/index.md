@@ -41,10 +41,8 @@ groups:
   buttonUrl: 'https://volunteeringvancouver.ca/nonprofit-organizations/'
   description:
     - p: >-
-        At Vanhacks 2019, we are trying something new that allows you hackers to
-        be more creative. In past years, we’ve limited the groups served to five
-        organizations who provided very specific asks. This year, we’ve decided
-        to give you free reign over the group you’d like to hack for.
+        At VanHacks 2020, we will be following the same format as last year.
+        Hackers can get creative and pick the organization of their choice. 
     - p: >-
         Use the list below to aid in your search for the non-profits that do
         amazing work around Vancouver, and think about how you can contribute to
@@ -58,7 +56,7 @@ groups:
     - step: Reach out or do research to find their technical needs.
     - step: Look for a Vancouver NPO you want to hack for.
     - step: Reach out or do research to find their technical needs.
-  title: Groups we're serving in 2019
+  title: Groups we're serving in 2020
 schedule:
   days:
     - day: Friday - 9/26
