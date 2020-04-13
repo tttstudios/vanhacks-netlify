@@ -1,17 +1,17 @@
 ---
 facebook:
   ogImage: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
-  ogTitle: VanHacks 2019 - Vancouver's Hackathon for Social Good
+  ogTitle: VanHacks 2020 - Vancouver's Hackathon for Social Good
 twitter:
   card: summary_large_image
   description: >-
     A hackathon to help improve Vancouver's community by solving problems for
     organizations that do social good.
   image: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
-  title: VanHacks 2019 - Vancouver's Hackathon for Social Good
+  title: VanHacks 2020 - Vancouver's Hackathon for Social Good
 header:
   buttonTitle: Get your tickets!
-  date: 'September 13-15, 2019'
+  date: 'September 26-28, 2020'
   image: /img/header-banner@2x.png
 collaborators:
   - alt: VSW Logo
@@ -61,7 +61,7 @@ groups:
   title: Groups we're serving in 2019
 schedule:
   days:
-    - day: Friday - 9/13
+    - day: Friday - 9/26
       timeBlocks:
         - description: >-
             If you are already on a team, this event is optional. Those not on a
@@ -71,7 +71,7 @@ schedule:
           locationUrl: 'https://goo.gl/maps/DC3VfMgern9Vxq3h8'
           time: '6:00 PM'
           title: Team Formation Social
-    - day: Saturday - 9/14
+    - day: Saturday - 9/27
       timeBlocks:
         - description: >-
             Each participant will check-in at the entrance. Information on how
@@ -103,7 +103,7 @@ schedule:
             gluten-free options available for those who request it.
           time: '7:00 PM'
           title: Dinner
-    - day: Sunday - 9/15
+    - day: Sunday - 9/28
       timeBlocks:
         - description: >-
             Breakfast will be served between 8:00 AM and 9:30 AM. Vegetarian,
@@ -422,7 +422,7 @@ info:
       firstQ: I have another question!
   rules:
     - firstDescription: >-
-        Online registration ends at 11:59PM on September 12th 2019 or when
+        Online registration ends at 11:59PM on September 25th 2020 or when
         maximum event capacity is reached. Capacity is 125 participants.
       firstRule: Registration
       secondDescription: Teams may be composed of minimum 3 and a maximum 5 participants.
