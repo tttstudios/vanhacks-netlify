@@ -341,6 +341,11 @@ info:
         devices that will contribute to the application's creation. As for food,
         we have you covered but if you want anything in particular there is a
         kitchen to make tea and prepare small bites.
+
+
+        Please also bring a reusable water bottle as BCIT supports
+        sustainability with water stations. We will not be supplying plastic
+        water bottles.
       firstQ: What should I bring?
     - firstAnswerOne: >+
         Participants spend 28 hours working in teams of 3-5 people to build an
@@ -362,13 +367,13 @@ info:
         Will there be a resource guide with helpful links to APIs, SDKs and
         datasets?
     - firstAnswerOne: >+
-        The closing date for registration is 11:59PM on September 12th 2019 or
+        The closing date for registration is 11:59PM on September 25th 2020 or
         whenever we reach capacity. Capacity is 125 people.
 
       firstHrefText: ''
       firstQ: When is the last day to register for VanHacks?
       secondAnswerOne: >+
-        Tickets are $36.50 each until September 5th 2019, after that tickets
+        Tickets are $36.50 each until September 1st 2020, after that tickets
         will cost $52.
 
       secondQ: How much is it to register?
@@ -435,8 +440,8 @@ info:
         teamwork.
       firstRule: Team formation
       secondDescription: >-
-        Teams may begin working at 10 AM on September 14th until demo time at 2
-        PM on September 15th. All technical designs, developed code, and
+        Teams may begin working at 10 AM on September 27th until demo time at 2
+        PM on September 28th. All technical designs, developed code, and
         production assets for each entry must be created during the VanHacks
         event.
       secondRule: How long is it?
@@ -495,7 +500,7 @@ info:
         will score competitors on innovation, design, quality and impact. Teams
         will have a maximum of 3 minutes to present and demonstrate their
         prototype to the judging panel. The winning team will be announced
-        on-site at 5:00 PM on September 15th. A maximum one entry per team may
+        on-site at 5:00 PM on September 28th. A maximum one entry per team may
         be submitted. Event hosts are not responsible for any dispute regarding
         prize dispersal or use.
 
