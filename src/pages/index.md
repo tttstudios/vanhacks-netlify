@@ -313,13 +313,9 @@ hosts:
     host: /img/katty-wang-2x.png
     socialMediaUrl: 'https://www.linkedin.com/in/kattywang/'
   - description: Host
-    fullName: Yan Gao
-    host: /img/yan-gao-2x.png
-    socialMediaUrl: 'https://www.linkedin.com/in/yangao009/'
-  - description: Host
-    fullName: Pranay Jain
-    host: /img/pranay.png
-    socialMediaUrl: 'https://www.linkedin.com/in/pranayuk/'
+    fullName: Tom Satterthwaite
+    host: /img/tom.png
+    socialMediaUrl: 'https://www.linkedin.com/in/tom-satterthwaite/'
 info:
   faq:
     - firstAnswerOne: >-
