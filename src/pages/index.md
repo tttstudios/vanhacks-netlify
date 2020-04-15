@@ -11,7 +11,7 @@ twitter:
   title: VanHacks 2020 - Vancouver's Hackathon for Social Good
 header:
   buttonTitle: Get your tickets!
-  date: 'September 26-28, 2020'
+  date: 'September 25-27, 2020'
   image: /img/header-banner@2x.png
 collaborators:
   - alt: VSW Logo
@@ -59,7 +59,7 @@ groups:
   title: Groups we're serving in 2020
 schedule:
   days:
-    - day: Friday - 9/26
+    - day: Friday - 9/25
       timeBlocks:
         - description: >-
             If you are already on a team, this event is optional. Those not on a
@@ -69,7 +69,7 @@ schedule:
           locationUrl: 'https://goo.gl/maps/DC3VfMgern9Vxq3h8'
           time: '6:00 PM'
           title: Team Formation Social
-    - day: Saturday - 9/27
+    - day: Saturday - 9/26
       timeBlocks:
         - description: >-
             Each participant will check-in at the entrance. Information on how
@@ -101,7 +101,7 @@ schedule:
             gluten-free options available for those who request it.
           time: '7:00 PM'
           title: Dinner
-    - day: Sunday - 9/28
+    - day: Sunday - 9/27
       timeBlocks:
         - description: >-
             Breakfast will be served between 8:00 AM and 9:30 AM. Vegetarian,
@@ -367,7 +367,7 @@ info:
         Will there be a resource guide with helpful links to APIs, SDKs and
         datasets?
     - firstAnswerOne: >+
-        The closing date for registration is 11:59PM on September 25th 2020 or
+        The closing date for registration is 11:59PM on September 24th 2020 or
         whenever we reach capacity. Capacity is 125 people.
 
       firstHrefText: ''
