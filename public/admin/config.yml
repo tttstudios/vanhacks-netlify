@@ -266,7 +266,7 @@ collections:
               },
               {
                 label: Event Sponsors Title,
-                name: eventSopnsorsTitle,
+                name: eventSponsorsTitle,
                 widget: string
               },
               {
