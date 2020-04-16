@@ -123,6 +123,7 @@ schedule:
             determined.
           time: '5:00 PM'
           title: Closing Ceremony
+  title: Schedule
 sponsors:
   buttonTitle: Download sponsorship package
   buttonUrl: VanHacks_Sponsorship_2019.pdf
