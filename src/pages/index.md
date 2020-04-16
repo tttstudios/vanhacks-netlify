@@ -1,17 +1,17 @@
 ---
 facebook:
   ogImage: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
-  ogTitle: VanHacks 2019 - Vancouver's Hackathon for Social Good
+  ogTitle: VanHacks 2020 - Vancouver's Hackathon for Social Good
 twitter:
   card: summary_large_image
   description: >-
     A hackathon to help improve Vancouver's community by solving problems for
     organizations that do social good.
   image: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
-  title: VanHacks 2019 - Vancouver's Hackathon for Social Good
+  title: VanHacks 2020 - Vancouver's Hackathon for Social Good
 header:
   buttonTitle: Get your tickets!
-  date: 'September 13-15, 2019'
+  date: 'September 25-27, 2020'
   image: /img/header-banner@2x.png
 collaborators:
   - alt: VSW Logo
@@ -41,10 +41,8 @@ groups:
   buttonUrl: 'https://volunteeringvancouver.ca/nonprofit-organizations/'
   description:
     - p: >-
-        At Vanhacks 2019, we are trying something new that allows you hackers to
-        be more creative. In past years, we’ve limited the groups served to five
-        organizations who provided very specific asks. This year, we’ve decided
-        to give you free reign over the group you’d like to hack for.
+        At VanHacks 2020, we will be following the same format as last year.
+        Hackers can get creative and pick the organization of their choice. 
     - p: >-
         Use the list below to aid in your search for the non-profits that do
         amazing work around Vancouver, and think about how you can contribute to
@@ -58,10 +56,10 @@ groups:
     - step: Reach out or do research to find their technical needs.
     - step: Look for a Vancouver NPO you want to hack for.
     - step: Reach out or do research to find their technical needs.
-  title: Groups we're serving in 2019
+  title: Groups we're serving in 2020
 schedule:
   days:
-    - day: Friday - 9/13
+    - day: Friday - 9/25
       timeBlocks:
         - description: >-
             If you are already on a team, this event is optional. Those not on a
@@ -71,7 +69,7 @@ schedule:
           locationUrl: 'https://goo.gl/maps/DC3VfMgern9Vxq3h8'
           time: '6:00 PM'
           title: Team Formation Social
-    - day: Saturday - 9/14
+    - day: Saturday - 9/26
       timeBlocks:
         - description: >-
             Each participant will check-in at the entrance. Information on how
@@ -103,7 +101,7 @@ schedule:
             gluten-free options available for those who request it.
           time: '7:00 PM'
           title: Dinner
-    - day: Sunday - 9/15
+    - day: Sunday - 9/27
       timeBlocks:
         - description: >-
             Breakfast will be served between 8:00 AM and 9:30 AM. Vegetarian,
@@ -315,13 +313,9 @@ hosts:
     host: /img/katty-wang-2x.png
     socialMediaUrl: 'https://www.linkedin.com/in/kattywang/'
   - description: Host
-    fullName: Yan Gao
-    host: /img/yan-gao-2x.png
-    socialMediaUrl: 'https://www.linkedin.com/in/yangao009/'
-  - description: Host
-    fullName: Pranay Jain
-    host: /img/pranay.png
-    socialMediaUrl: 'https://www.linkedin.com/in/pranayuk/'
+    fullName: Tom Satterthwaite
+    host: /img/tom.png
+    socialMediaUrl: 'https://www.linkedin.com/in/tom-satterthwaite/'
 info:
   faq:
     - firstAnswerOne: >-
@@ -343,6 +337,11 @@ info:
         devices that will contribute to the application's creation. As for food,
         we have you covered but if you want anything in particular there is a
         kitchen to make tea and prepare small bites.
+
+
+        Please also bring a reusable water bottle as BCIT supports
+        sustainability with water stations. We will not be supplying plastic
+        water bottles.
       firstQ: What should I bring?
     - firstAnswerOne: >+
         Participants spend 28 hours working in teams of 3-5 people to build an
@@ -364,13 +363,13 @@ info:
         Will there be a resource guide with helpful links to APIs, SDKs and
         datasets?
     - firstAnswerOne: >+
-        The closing date for registration is 11:59PM on September 12th 2019 or
+        The closing date for registration is 11:59PM on September 24th 2020 or
         whenever we reach capacity. Capacity is 125 people.
 
       firstHrefText: ''
       firstQ: When is the last day to register for VanHacks?
       secondAnswerOne: >+
-        Tickets are $36.50 each until September 5th 2019, after that tickets
+        Tickets are $36.50 each until September 1st 2020, after that tickets
         will cost $52.
 
       secondQ: How much is it to register?
@@ -422,7 +421,7 @@ info:
       firstQ: I have another question!
   rules:
     - firstDescription: >-
-        Online registration ends at 11:59PM on September 12th 2019 or when
+        Online registration ends at 11:59PM on September 25th 2020 or when
         maximum event capacity is reached. Capacity is 125 participants.
       firstRule: Registration
       secondDescription: Teams may be composed of minimum 3 and a maximum 5 participants.
@@ -437,8 +436,8 @@ info:
         teamwork.
       firstRule: Team formation
       secondDescription: >-
-        Teams may begin working at 10 AM on September 14th until demo time at 2
-        PM on September 15th. All technical designs, developed code, and
+        Teams may begin working at 10 AM on September 27th until demo time at 2
+        PM on September 28th. All technical designs, developed code, and
         production assets for each entry must be created during the VanHacks
         event.
       secondRule: How long is it?
@@ -497,7 +496,7 @@ info:
         will score competitors on innovation, design, quality and impact. Teams
         will have a maximum of 3 minutes to present and demonstrate their
         prototype to the judging panel. The winning team will be announced
-        on-site at 5:00 PM on September 15th. A maximum one entry per team may
+        on-site at 5:00 PM on September 28th. A maximum one entry per team may
         be submitted. Event hosts are not responsible for any dispute regarding
         prize dispersal or use.
 
