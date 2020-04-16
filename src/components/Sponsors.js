@@ -30,7 +30,7 @@ export default function Sponsors({ data }) {
 
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="section-subheading-sponsors">Event Sponsors
+                            <div className="section-subheading-sponsors">Past Sponsors
                         </div>
                             <div className="container">
                                 <div className="row gold-row d-flex wrap jc-center">

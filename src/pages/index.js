@@ -98,8 +98,8 @@ export default class Home extends Component {
                         <Sponsors data={sponsors} />
                         <div className="section-divider" />
 
-                        <Judges data={judges} />
-                        <div className="section-divider" />
+                        {/* <Judges data={judges} />
+                        <div className="section-divider" /> */}
 
                         <Hosts data={hosts} />
                         <div className="section-divider" />
