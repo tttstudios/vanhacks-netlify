@@ -130,6 +130,7 @@ sponsors:
   description: >-
     Interested in getting involved? Get in touch, or download the PDF below to
     learn about sponsorship opportunities.
+  eventSopnsorsTitle: Past Sponsors
   eventSponsors:
     - alt: BCIT logo
       sponsor: img/logos/logo-bcit@2x.png
