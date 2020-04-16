@@ -265,6 +265,11 @@ collections:
                 ]
               },
               {
+                label: Event Sponsors Title,
+                name: eventSopnsorsTitle,
+                widget: string
+              },
+              {
                 label: Event Sponsors,
                 name: eventSponsors,
                 widget: list,
