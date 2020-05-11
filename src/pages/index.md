@@ -318,6 +318,10 @@ hosts:
     fullName: Tom Satterthwaite
     host: /img/tom.png
     socialMediaUrl: 'https://www.linkedin.com/in/tom-satterthwaite/'
+  - description: Host
+    fullName: Victoria Niemiets
+    host: /img/victoria-niemiets-2x-1-.png
+    socialMediaUrl: 'https://www.linkedin.com/in/victoria-niemiets/'
 info:
   faq:
     - firstAnswerOne: >-
