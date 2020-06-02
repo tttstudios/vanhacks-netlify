@@ -8,7 +8,8 @@ const Header = ({ data }) => (
                 <img className="img-responsive vanhacks-intro" src="./img/logos/vanhacks_logo_white@2x.png" alt="Vanhacks" />
                 <img className="img-responsive social-good" src="./img/forsocialgood@2x.png" alt="For Social Good" />
 
-                <div id="purchase-tickets-button" className="button-yellow tickets-button">{data.buttonTitle}</div>
+                {/* <div id="purchase-tickets-button" className="button-yellow tickets-button">{data.buttonTitle}</div> */}
+                <p style={{ fontSize: '20px' }}>Tickets coming soon!</p>
             </div>
         </div>
     </header>

@@ -728,6 +728,7 @@ h3.section-subheading-sponsor {
 
 .bronze-sponsor-large {
   width: 70%;
+  margin-bottom: 10px!important;
 }
 
 @media (max-width: 768px) {
@@ -888,6 +889,12 @@ h3.section-subheading-sponsor {
 }
 
 /* @@@ Hosts @@@ */
+
+.hostsRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .img-host {
   width: 150px;
