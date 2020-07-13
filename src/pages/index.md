@@ -11,7 +11,7 @@ twitter:
   title: VanHacks 2020 - Vancouver's Hackathon for Social Good
 header:
   buttonTitle: Get your tickets!
-  date: 'September 25-27, 2020'
+  date: 'September 26-27, 2020'
   image: /img/header-banner@2x.png
 collaborators:
   - alt: VSW Logo
