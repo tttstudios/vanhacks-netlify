@@ -394,7 +394,7 @@ info:
       secondQ: Will there be prizes?
     - firstAnswerOne: >+
         Preferably yes. At the end of the hackathon, you are encouraged to give
-        a copy to the organization or upload it to a repo, like github, for them
+        a copy to the organization or upload it to a repo, like GitHub, for them
         to download.
 
       firstQ: >-
