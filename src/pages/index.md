@@ -54,7 +54,7 @@ groups:
   instructions:
     - step: Look for a Vancouver NPO you want to hack for.
     - step: Reach out or do research to find their technical needs.
-    - step: Team-up or build your group at the Team Formation Social Friday.
+    - step: Team-up or find your team on the VanHacks slack channel.
     - step: Let the hacking begin!
   title: Groups we're serving in 2020
 schedule:
