@@ -23,19 +23,6 @@ collaborators:
     href: 'https://ttt.studio'
     image: img/logos/ttt-logo.png
 about:
-  description:
-    - p: >-
-        VanHacks is an annual hackathon organized by TTT Studios around VSW
-        dedicated to helping those helping our community. We call you, hackers
-        of Vancouver, to join us over a weekend to create tech solutions that
-        solve challenging issues faced by our community's not-for-profit
-        institutions whose aim is to do social good. With your help, we can work
-        towards building a better, more unified Vancouver.
-    - p: >-
-        VanHacks is designed around the mantra of acting local and thinking
-        global. All hacks are encouraged to be published open source so that an
-        organization in Vancouver can benefit just as much as a similar
-        nonprofit on the other side of Canada or the other side of the World.
   descriptionMarkdown: >-
     VanHacks is an annual hackathon organized by TTT Studios around VSW
     dedicated to helping those helping our community. We call you, hackers of
@@ -68,6 +55,23 @@ groups:
         Please reach out to any of these groups directly (or a nonprofit of your
         choice) and ask if there are any digital assets you can create that can
         power their mission.
+  descriptionMarkdown: >-
+    At VanHacks 2020, we will be following the same format as last year. Hackers
+    can get creative and pick the organization of their choice. 
+
+
+
+
+    Use the list below to aid in your search for the non-profits that do amazing
+    work around Vancouver, and think about how you can contribute to their
+    cause.
+
+
+
+
+    Please reach out to any of these groups directly (or a nonprofit of your
+    choice) and ask if there are any digital assets you can create that can
+    power their mission.
   instructions:
     - step: Look for a Vancouver NPO you want to hack for.
     - step: Reach out or do research to find their technical needs.
