@@ -1,13 +1,13 @@
 ---
 facebook:
-  ogImage: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
+  ogImage: 'https://www.vanhacks.com/img/social_banner_1-2x.png'
   ogTitle: VanHacks 2020 - Vancouver's Hackathon for Social Good
 twitter:
   card: summary_large_image
   description: >-
     A hackathon to help improve Vancouver's community by solving problems for
     organizations that do social good.
-  image: 'http://www.vanhacks.com/img/social_banner_8%402x.png'
+  image: 'https://www.vanhacks.com/img/social_banner_1-2x.png'
   title: VanHacks 2020 - Vancouver's Hackathon for Social Good
 header:
   buttonTitle: Get your tickets!
