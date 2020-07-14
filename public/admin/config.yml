@@ -143,7 +143,7 @@ collections:
         }
 
           - {
-            label: 'Schedule - Old, Keeping for 2021',
+            label: 'Schedule',
             name: schedule,
             widget: object,
             fields: [
@@ -185,64 +185,6 @@ collections:
                       },
                       {
                         label: Location Url,
-                        name: locationUrl,
-                        widget: string,
-                        required: false
-                      },
-                      {
-                        label: Description,
-                        name: description,
-                        widget: text,
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-        }
-          - {
-            label: Schedule - Lite,
-            name: scheduleLite,
-            widget: object,
-            fields: [
-              {
-                label: Title,
-                name: title,
-                widget: string,
-              },
-              {
-                label: Days,
-                name: days,
-                widget: list,
-                fields: [
-                  {
-                    label: Day,
-                    name: day,
-                    widget: string,
-                  },
-                  {
-                    label: Time Blocks,
-                    name: timeBlocks,
-                    widget: list,
-                    fields: [
-                      {
-                        label: Time,
-                        name: time,
-                        widget: string,
-                      },
-                      {
-                        label: Title,
-                        name: title,
-                        widget: string,
-                      },
-                      {
-                        label: 'Location Title (Optional)',
-                        name: locationTitle,
-                        widget: string,
-                        required: false
-                      },
-                      {
-                        label: 'Location Url (Optional)',
                         name: locationUrl,
                         widget: string,
                         required: false
