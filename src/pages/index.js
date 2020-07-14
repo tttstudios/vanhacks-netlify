@@ -56,7 +56,7 @@ export default class Home extends Component {
                     <title>VanHacks 2019 - Vancouver's Hackathon for Social Good</title>
 
                     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet" type="text/css" />
-                    <link href="http://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
+                    {/* <link href="http://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" /> */}
 
                     {/* HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
             WARNING: Respond.js doesn't work if you view the page via file://
@@ -119,10 +119,10 @@ export default class Home extends Component {
                     <script src="/js/bootstrap.min.js" />
 
                     {/* <!-- Contact Form JavaScript --> */}
-                    <script src="/js/contact_me.js" />
+                    {/* <script src="/js/contact_me.js" /> */}
 
                     {/* <!-- Index.js file--> */}
-                    <script src="/js/index.js" />
+                    {/* <script src="/js/index.js" /> */}
 
                     {/* <!-- Custom Theme JavaScript --> */}
                     <script src="/js/agency.js" />

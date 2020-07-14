@@ -54,8 +54,10 @@ collections:
             widget: object,
             fields: [
               {label: Image, name: image, widget: image},
+              {label: VanHacks Logo, name: vanhacksLogo, widget: image },
               {label: Date, name: date, widget: string},
-              {label: Button Title, name: buttonTitle, widget: string,}
+              {label: Button Title, name: buttonTitle, widget: string,},
+              {label: Button URL Link, name: buttonURL, widget: string,}
             ]
           }
           - {label: Hacking and Caring with, name: collaborators, widget: list, 

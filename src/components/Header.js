@@ -5,11 +5,13 @@ const Header = ({ data }) => (
         <div className="container">
             <div className="intro-text">
                 <div className="intro-heading">{data.date}</div>
-                <img className="img-responsive vanhacks-intro" src="./img/logos/vanhacks_logo_white@2x.png" alt="Vanhacks" />
-                <img className="img-responsive social-good" src="./img/forsocialgood@2x.png" alt="For Social Good" />
+                <img className="img-responsive vanhacks-intro" src={data.vanhacksLogo} alt="Vanhacks Logo" />
+                <img className="img-responsive social-good" src="./img/forsocialgood@2x.png" alt="VanHacks: For Social Good" />
 
-                {/* <div id="purchase-tickets-button" className="button-yellow tickets-button">{data.buttonTitle}</div> */}
-                <p style={{ fontSize: '20px' }}>Tickets coming soon!</p>
+                <a href={data.buttonURL} target="_blank" rel="noopener noreferrer" id="purchase-tickets-button" className="button-yellow tickets-button">
+                    {data.buttonTitle}
+                </a>
+                {/* <p style={{ fontSize: '20px' }}>Tickets coming soon!</p> */}
             </div>
         </div>
     </header>
