@@ -427,6 +427,32 @@ info:
       firstHrefText: here.
       firstHrefUrl: 'mailto:chris@ttt.studio'
       firstQ: I have another question!
+  faqLite:
+    - answer: >-
+        Participants spend 28 hours working in teams of 3-5 people to build an
+        application that will benefit groups from the Vancouver community. It is
+        up to the participants to take the challenges NPOs are facing and find
+        ways to solve them through the applications they build over the weekend.
+        In addition, mentors will be present to guide and advise participants on
+        any difficulties they have when designing or building their
+        applications. At the end of the 28 hours, each team will demo their
+        working application to a panel of judges. The judges will then choose
+        the top three projects.
+      question: How does VanHacks work?
+    - answer: >-
+        At the end of the 28 hours, you should have a working application that
+        can be demoed in front of the judges. Projects will be judged on how
+        well the application solves the chosen problem and how well the solution
+        works at demo time. A list of criteria will be given at the beginning of
+        the hackathon to help keep hackers on track. Extra points are given to
+        those who agree to open source their project after the hackathon.
+      question: What are the judging criteria?
+    - answer: >-
+        Yes, here is the [VanHacks API and SDK Resource Guide](<Vanhacks
+        Hackathon API and SDK Resources.pdf>).
+      question: >-
+        Will there be a resource guide with helpful links to APIs, SDKs and
+        datasets?
   rules:
     - firstDescription: >-
         Online registration ends at 11:59PM on September 25th 2020 or when
