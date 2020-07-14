@@ -44,17 +44,14 @@ groups:
   buttonTitle: Find your group
   buttonUrl: 'https://volunteeringvancouver.ca/nonprofit-organizations/'
   descriptionMarkdown: >-
-    At VanHacks 2020, we will be following the same format as last year. Hackers
-    can get creative and pick the organization of their choice. 
-
-
+    For VanHacks 2020, we will be bringing the hackathon online due to the
+    current circumstances brought upon by the pandemic. Similar to previous
+    years, hackers can get creative and pick the organization of their choice. 
 
 
     Use the list below to aid in your search for the non-profits that do amazing
     work around Vancouver, and think about how you can contribute to their
     cause.
-
-
 
 
     Please reach out to any of these groups directly (or a nonprofit of your
