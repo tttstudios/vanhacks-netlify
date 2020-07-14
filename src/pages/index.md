@@ -585,6 +585,19 @@ info:
         Online registration ends at **11:59PM on September 25th 2020** or when
         maximum event capacity is reached. Capacity is 125 participants.
       rule: Registration
+    - description: >-
+        Participants may join with a pre-established team. In lieu of an
+        in-person team formation, the VanHacks slack channel will become
+        instrumental for forming teams. Please use the #team-formation channel
+        to assemble your team. 
+
+
+        Hackers are expected to know their teams by Saturday morning when they
+        join the call at 9:00 am. You will be required to select a team name and
+        designate a team spokesperson. Individuals may only participate and
+        register with one team. Each team is solely responsible for its own
+        cooperation and teamwork.
+      rule: Team Formation
     - description: Teams may be composed of minimum 3 and a maximum 5 participants.
       rule: Team Requirements
     - description: >-
@@ -598,6 +611,38 @@ info:
         tools to build their competition entry. Teams are permitted to use open
         source tools and/or code.
       rule: Language & Tools
+    - description: >-
+        To ensure a level playing field for all contestants, all code, design,
+        art, music, SFX, and assets must be created during the duration of
+        VanHacks. We want to ensure that all participants start off on the same
+        footing and preserve the true nature of a hackathon. You are, however,
+        free to make plans, create wireframes, and brainstorm prior to the
+        event.
+      rule: 'Code, deisgn, SFX, music'
+    - description: >-
+        VanHacks is dedicated to providing a harassment-free experience for
+        everyone, regardless of gender, gender identity and expression, age,
+        sexual orientation, disability, physical appearance, body size, race,
+        ethnicity, nationality, religion, previous hackathon attendance or
+        computing experience (or lack of any of the aforementioned). We do not
+        tolerate harassment of VanHacks participants in any form. Sexual
+        language and imagery is not appropriate at VanHacks. VanHacks
+        participants violating these rules may be sanctioned or expelled from
+        the hackathon without a refund at the discretion of VanHacks organizers.
+      rule: Code of conduct
+    - description: >-
+        Ownership of the solution created by participants for VanHacks is owned
+        by the participants and the not-for-profit institution they hacked for.
+        TTT Studios, VSW & Sponsors do NOT have any rights to code created
+        during VanHacks.
+      rule: Ownership
+    - description: >-
+        VanHacks judges will award 5 points to each project that is licensed as
+        open source. This is done in the spirit of "Act Local, Think Global..."
+        where as a local organization such as the Vancouver Food Bank may have
+        similar challenges as the Calgary Food Bank. By open sourcing the
+        projects we extend the usefulness of the code to the rest of the world.
+      rule: Open source
   title: Info
 ---
 
