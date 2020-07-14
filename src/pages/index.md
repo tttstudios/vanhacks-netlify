@@ -13,7 +13,7 @@ header:
   buttonTitle: Get your tickets!
   buttonURL: 'https://www.eventbrite.ca/e/vanhacks-lite-2020-tickets-112506857038'
   date: 'September 26-27, 2020'
-  image: /img/header-banner@2x.png
+  image: /img/header-banner-2x-1-.png
   vanhacksLogo: /img/vanhacks-logo-horizontal_white.png
 collaborators:
   - alt: VSW Logo
@@ -43,18 +43,6 @@ about:
 groups:
   buttonTitle: Find your group
   buttonUrl: 'https://volunteeringvancouver.ca/nonprofit-organizations/'
-  description:
-    - p: >-
-        At VanHacks 2020, we will be following the same format as last year.
-        Hackers can get creative and pick the organization of their choice. 
-    - p: >-
-        Use the list below to aid in your search for the non-profits that do
-        amazing work around Vancouver, and think about how you can contribute to
-        their cause.
-    - p: >-
-        Please reach out to any of these groups directly (or a nonprofit of your
-        choice) and ask if there are any digital assets you can create that can
-        power their mission.
   descriptionMarkdown: >-
     At VanHacks 2020, we will be following the same format as last year. Hackers
     can get creative and pick the organization of their choice. 
