@@ -29,6 +29,7 @@ export default class Home extends Component {
             about,
             groups,
             schedule,
+            scheduleLite,
             sponsors,
             judges,
             hosts,
@@ -53,7 +54,7 @@ export default class Home extends Component {
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
 
-                    <title>VanHacks 2019 - Vancouver's Hackathon for Social Good</title>
+                    <title>{facebook.ogTitle}</title>
 
                     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet" type="text/css" />
                     {/* <link href="http://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" /> */}
@@ -92,7 +93,7 @@ export default class Home extends Component {
                         <Groups data={groups} />
                         <div className="section-divider" />
 
-                        <Schedule data={schedule} />
+                        <Schedule data={scheduleLite} />
                         <div className="section-divider" />
 
                         <Sponsors data={sponsors} />
@@ -104,8 +105,8 @@ export default class Home extends Component {
                         <Hosts data={hosts} />
                         <div className="section-divider" />
 
-                        <Mentors />
-                        <div className="section-divider" />
+                        {/* <Mentors />
+                        <div className="section-divider" /> */}
 
                         <Info data={info} />
                         <div className="section-divider" />

@@ -25,7 +25,8 @@
     "eslint-config-airbnb": "^18.0.1",
     "next": "^9.1.4",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "showdown": "^1.9.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

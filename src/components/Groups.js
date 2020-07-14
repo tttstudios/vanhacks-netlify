@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
+import showdown from 'showdown';
 
 export default function Groups({ data }) {
+    const converter = new showdown.Converter();
     return (
         <section id="groups">
             <div className="container">
@@ -8,13 +10,7 @@ export default function Groups({ data }) {
                     <div className="col-lg-12 text-center">
                         <h2 className="section-heading ">{data.title}</h2>
 
-                        <div className="groups-body">
-                            {data.description.map((paragraph, index) => (
-                                <div key={index} className="groups-paragraph">
-                                    {paragraph.p}
-                                </div>
-                            ))}
-                        </div>
+                        <div className="groups-body" dangerouslySetInnerHTML={{ __html: converter.makeHtml(data.descriptionMarkdown) }} />
 
                         <a href={data.buttonUrl} target="_blank" rel="noopener noreferrer">
                             <div className="button-yellow group-button">

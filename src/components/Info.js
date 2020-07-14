@@ -1,6 +1,9 @@
 import PropTypes from 'prop-types';
+import showdown from 'showdown';
 
 export default function Info({ data }) {
+    const converter = new showdown.Converter();
+
     return (
         <section id="info">
             <div className="container">
@@ -14,7 +17,7 @@ export default function Info({ data }) {
                     <div>
                         <div className="col-md-12">
                             <h4 className="rules-subheader">Rules</h4>
-                            {
+                            {/* {
                                 data.rules.map((r, index) => (
                                     <div key={index} className="row">
                                         <div className="col-md-6">
@@ -27,12 +30,22 @@ export default function Info({ data }) {
                                         </div>
                                     </div>
                                 ))
-                            }
+                            } */}
+                            <div className="rules-container">
+                                {
+                                    data.rulesLite && data.rulesLite.map(rule => (
+                                        <div key={rule.rule} className="rules-item">
+                                            <h4 className="rules">{rule.rule}</h4>
+                                            <p className="rules" dangerouslySetInnerHTML={{ __html: converter.makeHtml(rule.description) }} />
+                                        </div>
+                                    ))
+                                }
+                            </div>
 
                             {/* <!-- FAQ Section --> */}
 
                             <h4 className="rules-subheader" style={{ paddingTop: '50px' }}>FAQ</h4>
-                            {data.faq.map((faq, index) => (
+                            {/* {data.faq.map((faq, index) => (
                                 <div key={index} className="row">
                                     <div className="col-md-6">
                                         <h4 className="rules">{faq.firstQ}</h4>
@@ -58,12 +71,22 @@ export default function Info({ data }) {
 
                                 </div>
 
-                            ))}
+                            ))} */}
+                            <div className="rules-container">
+                                {
+                                    data.faqLite.map(faq => (
+                                        <div key={faq.question} className="rules-item">
+                                            <h4 className="rules">{faq.question}</h4>
+                                            <p className="rules" dangerouslySetInnerHTML={{ __html: converter.makeHtml(faq.answer) }} />
+                                        </div>
+                                    ))
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section >
+        </section>
     );
 }
 
@@ -85,11 +108,19 @@ Info.propTypes = {
             secondHrefUrl: PropTypes.string,
             secondAnswerTwo: PropTypes.string,
         }))),
+        faqLite: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.shape({
+            question: PropTypes.string,
+            answer: PropTypes.string,
+        }))),
         rules: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.shape({
             firstRule: PropTypes.string,
             firstDescription: PropTypes.string,
             secondRule: PropTypes.string,
             secondDescription: PropTypes.string,
+        }))),
+        newRules: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.shape({
+            rule: PropTypes.string,
+            description: PropTypes.string,
         }))),
         title: PropTypes.string,
     })),

@@ -54,15 +54,15 @@ export default class Navbar extends Component {
                             <li>
                                 <a className="page-scroll nav-link-font" href="#sponsors">Sponsors</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a className="page-scroll nav-link-font" href="#judges">Judges</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a className="page-scroll nav-link-font" href="#hosts">Hosts</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a className="page-scroll nav-link-font" href="#mentors">Mentors</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a className="page-scroll nav-link-font" href="#info">Info</a>
                             </li>

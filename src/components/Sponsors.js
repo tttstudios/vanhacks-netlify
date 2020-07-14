@@ -82,7 +82,7 @@ export default function Sponsors({ data }) {
                             </div>
                         </div>
                     </div>
-
+{/* 
                     <div className="row">
 
                         <p className="text-sponsor-small text-center sponsors-details">
@@ -93,7 +93,7 @@ export default function Sponsors({ data }) {
                             <div className="button-yellow sponsorship-download-package-button">{data.buttonTitle}
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
