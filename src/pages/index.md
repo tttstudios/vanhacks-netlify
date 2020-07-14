@@ -11,8 +11,10 @@ twitter:
   title: VanHacks 2020 - Vancouver's Hackathon for Social Good
 header:
   buttonTitle: Get your tickets!
+  buttonURL: 'https://www.eventbrite.ca/e/vanhacks-lite-2020-tickets-112506857038'
   date: 'September 26-27, 2020'
   image: /img/header-banner@2x.png
+  vanhacksLogo: /img/vanhacks-logo-horizontal_white.png
 collaborators:
   - alt: VSW Logo
     href: 'http://vanstartupweek.ca/'
