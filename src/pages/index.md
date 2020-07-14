@@ -559,6 +559,24 @@ info:
         these Official Rules.
 
       secondRule: Rule changes
+  rulesLite:
+    - description: >-
+        Online registration ends at **11:59PM on September 25th 2020** or when
+        maximum event capacity is reached. Capacity is 125 participants.
+      rule: Registration
+    - description: Teams may be composed of minimum 3 and a maximum 5 participants.
+      rule: Team Requirements
+    - description: >-
+        Teams may begin working at **10 AM on September 27th** until demo time
+        at **2 PM on September 28th**. All technical designs, developed code,
+        and production assets for each entry must be created during the VanHacks
+        event.
+      rule: How long is it?
+    - description: >-
+        Participants are expected to bring the necessary hardware and software
+        tools to build their competition entry. Teams are permitted to use open
+        source tools and/or code.
+      rule: Language & Tools
   title: Info
 ---
 
