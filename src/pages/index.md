@@ -591,8 +591,8 @@ info:
     - description: Teams may be composed of minimum 3 and a maximum 5 participants.
       rule: Team Requirements
     - description: >-
-        Teams may begin working at **10 AM on September 27th** until demo time
-        at **2 PM on September 28th**. All technical designs, developed code,
+        Teams may begin working at **10 AM on September 26th** until demo time
+        at **2 PM on September 27th**. All technical designs, developed code,
         and production assets for each entry must be created during the VanHacks
         event.
       rule: How long is it?
