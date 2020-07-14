@@ -126,6 +126,23 @@ schedule:
           time: '5:00 PM'
           title: Closing Ceremony
   title: Schedule
+scheduleLite:
+  days:
+    - day: Saturday - 9/26
+      timeBlocks:
+        - description: >-
+            Each participant will check-in at the entrance. Information on how
+            to set up and make themselves at home will be provided.
+          time: '8:00AM'
+          title: Participant Registration
+    - day: Sunday - 9/27
+      timeBlocks:
+        - description: >-
+            Breakfast will be served between 8:00 AM and 9:30 AM. Vegetarian,
+            vegan and gluten-free options available for those who request it.
+          time: '8:00AM'
+          title: Breakfast
+  title: Schedule
 sponsors:
   buttonTitle: Download sponsorship package
   buttonUrl: VanHacks_Sponsorship_2019.pdf
