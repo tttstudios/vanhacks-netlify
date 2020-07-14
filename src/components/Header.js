@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 
 const Header = ({ data }) => (
-    <header style={{ backgroundImage: `${data.image}` }}>
+    <header style={{ backgroundImage: `url(${data.image})` }}>
         <div className="container">
             <div className="intro-text">
                 <div className="intro-heading">{data.date}</div>
