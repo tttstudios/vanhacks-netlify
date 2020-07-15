@@ -585,6 +585,8 @@ info:
         Online registration ends at **11:59PM on September 25th 2020** or when
         maximum event capacity is reached. Capacity is 125 participants.
       rule: Registration
+    - description: Teams may be composed of minimum 3 and a maximum 5 participants.
+      rule: Team Requirements
     - description: >-
         Participants may join with a pre-established team. In lieu of an
         in-person team formation, the VanHacks slack channel will become
@@ -598,8 +600,6 @@ info:
         register with one team. Each team is solely responsible for its own
         cooperation and teamwork.
       rule: Team Formation
-    - description: Teams may be composed of minimum 3 and a maximum 5 participants.
-      rule: Team Requirements
     - description: >-
         Teams may begin working at **10 AM on September 26th** until demo time
         at **2 PM on September 27th**. All technical designs, developed code,
