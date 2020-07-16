@@ -450,6 +450,10 @@ info:
       firstQ: I have another question!
   faqLite:
     - answer: >-
+        To be a participant you need to be either a developer or a UI/UX
+        designer.
+      question: 'Do I need to be a developer to attend? '
+    - answer: >-
         Participants spend 28 hours working in teams of 3-5 people to build an
         application that will benefit groups from the Vancouver community. It is
         up to the participants to take the challenges NPOs are facing and find
@@ -474,6 +478,13 @@ info:
       question: >-
         Will there be a resource guide with helpful links to APIs, SDKs and
         datasets?
+    - answer: >-
+        Preferably yes. At the end of the hackathon, you are encouraged to give
+        a copy to the organization or upload it to a repo, like GitHub, for them
+        to download.
+      question: >-
+        At the end of VanHacks, do we give our projects to the not-for-profit
+        organisation we choose to hack for?
   rules:
     - firstDescription: >-
         Online registration ends at 11:59PM on September 25th 2020 or when
