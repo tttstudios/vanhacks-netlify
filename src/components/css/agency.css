@@ -626,8 +626,8 @@ p.text-community-sponsor-small {
   width: auto;
   height: 90px;
   margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .sponsor-img {
@@ -659,8 +659,8 @@ p.text-community-sponsor-small {
     margin-top: 30px;
     width: auto;
     padding-left: 25px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
