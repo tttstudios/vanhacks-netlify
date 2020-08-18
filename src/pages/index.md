@@ -25,7 +25,7 @@ collaborators:
   - alt: Microsoft logo
     href: >-
       https://www.microsoft.com/en-ca/microsoft-365/microsoft-teams/group-chat-software?icid=mscom_marcom
-    image: /img/microsoft-logo_rgb_c-gray.png
+    image: /img/microsoft-logo_rgb_c-gray-cropped.png
 about:
   descriptionMarkdown: >-
     VanHacks is an annual hackathon organized by TTT Studios around VSW
