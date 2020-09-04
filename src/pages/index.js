@@ -104,8 +104,8 @@ export default class Home extends Component {
                         <Hosts data={hosts} />
                         <div className="section-divider" />
 
-                        {/* <Mentors />
-                        <div className="section-divider" /> */}
+                        <Mentors />
+                        <div className="section-divider" />
 
                         <Info data={info} />
                         <div className="section-divider" />
