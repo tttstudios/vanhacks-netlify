@@ -69,16 +69,6 @@ groups:
   title: Groups we're serving in 2020
 schedule:
   days:
-    - day: Friday - 9/25
-      timeBlocks:
-        - description: >-
-            If you are already on a team, this event is optional. Those not on a
-            team are required to come and learn each other's challenge ideas and
-            form teams.
-          locationTitle: '@TTT Studios'
-          locationUrl: 'https://goo.gl/maps/DC3VfMgern9Vxq3h8'
-          time: '6:00 PM'
-          title: Team Formation Social
     - day: Saturday - 9/26
       timeBlocks:
         - description: >-
