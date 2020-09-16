@@ -77,7 +77,7 @@ schedule:
           locationTitle: ''
           locationUrl: ''
           time: '8:00 AM'
-          title: Platform opens for hanging out mingling
+          title: Platform opens for hanging out and mingling
         - description: >-
             Participants will be informed of the challenges for the hackathon,
             what kind of applications they are expected to realize, judges,
