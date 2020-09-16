@@ -92,8 +92,8 @@ export default class Home extends Component {
                         <Groups data={groups} />
                         <div className="section-divider" />
 
-                        {/* <Schedule data={schedule} />
-                        <div className="section-divider" /> */}
+                        <Schedule data={schedule} />
+                        <div className="section-divider" />
 
                         <Sponsors data={sponsors} />
                         <div className="section-divider" />
