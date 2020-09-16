@@ -72,52 +72,50 @@ schedule:
     - day: Saturday - 9/26
       timeBlocks:
         - description: >-
-            Each participant will check-in at the entrance. Information on how
-            to set up and make themselves at home will be provided.
-          locationTitle: '@BCIT Downtown Campus'
-          locationUrl: 'https://goo.gl/maps/KbKPQCbYYQf2FUbDA'
+            Come online early to hangout, mingle and bounce ideas off other
+            hackers before the event starts.
+          locationTitle: ''
+          locationUrl: ''
           time: '8:00 AM'
-          title: Participant Registration
+          title: Platform opens for hanging out mingling
         - description: >-
             Participants will be informed of the challenges for the hackathon,
-            available APIs to work with, what kind of applications they are
-            expected to realize, sponsors, judges, judging criteria, mentors,
-            rules and any other information.
+            what kind of applications they are expected to realize, judges,
+            judging criteria, mentors, rules and any other information.
           time: '9:00 AM'
           title: Opening Ceremony & QA Session
+        - description: >-
+            Microsoft will be hosting a mandatory workshop and answering
+            questions on using Microsoft Teams for the hackathon
+          time: '9:30 AM'
+          title: Microsoft Team Building Exercise
         - description: >-
             The challenge begins! Vanhacks will come around and register teams
             and their chosen challenge. Mentors will be available throughout
             most of the hackathon to lend advice on how to tackle problems.
           time: '10:00 AM'
-          title: Start Hacking
+          title: Hacking Begins!
         - description: >-
-            Lunch will be served between 1:00 PM and 2:30 PM. Vegetarian, vegan
-            and gluten-free options available for those who request it.
-          time: '1:00 PM'
-          title: Lunch
-        - description: >-
-            Dinner is served between 7:00 PM and 8:00 PM. Vegetarian, vegan and
-            gluten-free options available for those who request it.
-          time: '7:00 PM'
-          title: Dinner
+            Some mentorship may still be available after 5:00PM, but there will
+            be less mentors around, and they may be less responsive as well. If
+            possible, try to ask for help before 5:00PM!
+          time: '5:00 PM'
+          title: Mentorship support slows down
     - day: Sunday - 9/27
       timeBlocks:
-        - description: >-
-            Breakfast will be served between 8:00 AM and 9:30 AM. Vegetarian,
-            vegan and gluten-free options available for those who request it.
-          time: '8:00 AM'
-          title: Breakfast
-        - description: >-
-            Lunch is served between 12:00 PM and 1:30 PM. Vegetarian, vegan and
-            gluten-free options available for those who request it.
-          time: '12:00 PM'
-          title: Lunch
+        - description: Mentors will be back to help out in the morning of presentation day.
+          time: '9:00 AM'
+          title: Mentorship picks back up
         - description: >-
             With around 20 teams participating, each demo will be limited to 3
             minutes.
           time: '2:00 PM'
           title: Demos to Judges Begin
+        - description: >-
+            Final 6 teams from the preliminary rounds will have 5 minutes to
+            present to the final judges. 
+          time: '4:00 PM'
+          title: Final Judging Starts
         - description: >-
             Winners are announced and presented with prizes, Prizes to be
             determined.
