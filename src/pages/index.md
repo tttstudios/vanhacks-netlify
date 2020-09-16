@@ -90,9 +90,9 @@ schedule:
           time: '9:30 AM'
           title: Microsoft Team Building Exercise
         - description: >-
-            The challenge begins! Vanhacks will come around and register teams
-            and their chosen challenge. Mentors will be available throughout
-            most of the hackathon to lend advice on how to tackle problems.
+            The challenge begins! Make sure to send us your team name and chosen
+            problem to solve. Mentors will be available throughout most of the
+            hackathon to lend advice on how to tackle problems.
           time: '10:00 AM'
           title: Hacking Begins!
         - description: >-
