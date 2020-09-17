@@ -574,9 +574,9 @@ info:
       rule: Team Requirements
     - description: >-
         Participants may join with a pre-established team. In lieu of an
-        in-person team formation, the VanHacks slack channel will become
-        instrumental for forming teams. Please use the #team-formation channel
-        to assemble your team. 
+        in-person team formation, the VanHacks Microsoft Teams channel will
+        become instrumental for forming teams. You will receive an invitation a
+        week or two before the hackathon to join Microsoft Teams. 
 
 
         Hackers are expected to know their teams by Saturday morning when they
