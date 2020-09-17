@@ -84,10 +84,11 @@ schedule:
           time: '9:00 AM'
           title: Opening Ceremony & QA Session
         - description: >-
-            Microsoft will be hosting a mandatory workshop and answering
-            questions on using Microsoft Teams for the hackathon
+            Join Microsoft for a fun introduction to working in the Teams
+            environment. Whether you have used Teams before or not, this will
+            help you get the most out of the platform for VanHacks 2020.
           time: '9:30 AM'
-          title: Microsoft Team Building Exercise
+          title: Team building in Teams
         - description: >-
             The challenge begins! Make sure to send us your team name and chosen
             problem to solve. Mentors will be available throughout most of the
