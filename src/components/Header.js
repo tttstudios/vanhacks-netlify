@@ -8,10 +8,10 @@ const Header = ({ data }) => (
                 <img className="img-responsive vanhacks-intro" src={data.vanhacksLogo} alt="Vanhacks Logo" />
                 <img className="img-responsive social-good" src="./img/forsocialgood@2x.png" alt="VanHacks: For Social Good" />
 
-                <a href={data.buttonURL} target="_blank" rel="noopener noreferrer" id="purchase-tickets-button" className="button-yellow tickets-button">
+                {/* <a href={data.buttonURL} target="_blank" rel="noopener noreferrer" id="purchase-tickets-button" className="button-yellow tickets-button">
                     {data.buttonTitle}
-                </a>
-                {/* <p style={{ fontSize: '20px' }}>Tickets coming soon!</p> */}
+                </a> */}
+                <p style={{ fontSize: '30px', color: '#d9d9d9' }}>Tickets sold out</p>
             </div>
         </div>
     </header>
