@@ -23,7 +23,7 @@
     "@fortawesome/react-fontawesome": "^0.1.7",
     "@zeit/next-css": "^1.0.1",
     "eslint-config-airbnb": "^18.0.1",
-    "next": "^9.1.4",
+    "next": "^11.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "showdown": "^1.9.1"
