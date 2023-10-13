@@ -4,6 +4,9 @@ const Header = ({ data }) => (
     <header style={{ backgroundImage: `url(${data.image})` }}>
         <div className="container">
             <div className="intro-text">
+                <div className="intro-heading">
+                    If you are looking for our friends at Vanhack… a great organization that helps companies hire tech professionals from a world of talent go to <a href="http://www.vanhack.com" target="_blank" rel="noopener noreferrer">http://www.vanhack.com</a>
+                </div>
                 <div className="intro-heading">{data.date}</div>
                 <img className="img-responsive vanhacks-intro" src={data.vanhacksLogo} alt="Vanhacks Logo" />
                 <img className="img-responsive social-good" src="./img/forsocialgood@2x.png" alt="VanHacks: For Social Good" />
