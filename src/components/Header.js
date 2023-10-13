@@ -4,7 +4,7 @@ const Header = ({ data }) => (
     <header style={{ backgroundImage: `url(${data.image})` }}>
         <div className="container">
             <div className="intro-text">
-                <div className="intro-heading">
+                <div className="intro-heading" style={{ width: '60%' }}>
                     If you are looking for our friends at Vanhack… a great organization that helps companies hire tech professionals from a world of talent go to <a href="http://www.vanhack.com" target="_blank" rel="noopener noreferrer">http://www.vanhack.com</a>
                 </div>
                 <div className="intro-heading">{data.date}</div>
